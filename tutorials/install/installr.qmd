@@ -1,0 +1,33 @@
+---
+title: "Install R"
+---
+
+Since we. use RStudio on top of R, we need to start by installing R first. R is the underlying enging that runs your code, while RStudio is the interface that makes it easier to work with.
+
+## Installing R from CRAN
+
+You install R from the CRAN website (Comprehensive R Archive Network), which is the official source for R.
+
+R can be installed on:
+
+-   Windows
+
+-   MacOS
+
+-   Linux
+
+To install R:
+
+1.  Go to the [CRAN download page](https://cran.r-project.org/).
+
+2.  Click on the link that matches your operating system (e.g. Download R for Windows)
+
+3.  Follow the instructions on the screen. The default settings are usually fine.
+
+4.  Once installed, you can test it by opening the R application. However, we will typically not use it directly like this, since we will use RStudio instead.
+
+## Updates
+
+If you used R before and installed it for example some years ago, it is probably time for an update. R is actively developed, and new versions are released regularly with improvements, bug fixes and new features.
+
+To avoid issues and make sure everything works smoothly, we recommend installing the latest version of R from the CRAN website, even if you already have an older version on your computer.

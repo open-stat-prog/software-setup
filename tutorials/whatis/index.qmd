@@ -1,0 +1,5 @@
+---
+title: "What are R and RStudio"
+---
+
+R is a programming language, that you will learn all about throughout the modules on this website. In addition, RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code. Both R and RStudio are free and open-source available. This tutorial gives you a better understand of how these programs work and what it means to be open-source. 

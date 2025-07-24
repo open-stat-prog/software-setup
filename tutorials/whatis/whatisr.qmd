@@ -1,0 +1,87 @@
+---
+title: "What is R"
+---
+
+## R
+
+R is a programming language an software environment designed for working
+with data. You can use it to do things like organize data, perform
+calculations, make graphs and run statistical analyses. It lets you
+write code (small instructions) to work with data. Instead of clicking
+through menus (like you do in Excel or SPSS), in R you write commands to
+tell the computer exactly what you want to do.
+
+R was created in the 1990s by two statisticians, Ross Ihaka and Robert
+Gentleman, at the University of Auckland in New Zealand. They named it
+"R" after the first letters of their names and also as a nod to the
+programming language S, which R was based on. Over time, R has evolved
+with contributions from thousands of users around the world, and today
+it is the go-to software program for statisticians and computational
+social scientists worldwide. Therefore, it is essential to have in your
+toolkit as an applied data scientist or researcher in the field of
+methodology and statistics.
+
+You can use R to:
+
+-   Work with data in tables or spreadsheets
+
+-   Make plots and graphs
+
+-   Do statistical tests and apply models
+
+-   Clean, reshape and summarize data
+
+-   Automate data tasks
+
+::: {.column-margin}
+
+:::: resource
+
+You can read more about R at the [FAQ](https://cran.r-project.org/doc/FAQ/R-FAQ.html#What-is-R_003f)
+
+::::
+
+:::
+
+## Base R
+
+R comes with a set of basic tools which you can use to do math and
+statistics, create simple plots, read and write files and to write your
+own functions and programs. This set of basic tools is referred to as
+"Base R". However, there are many more tools available through so-called
+"packages". These are add-ons created by other users that let you do
+more advanced or specialized tasks.
+
+::: {.column-margin}
+
+:::: resource
+
+The [Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf) is a useful resource for the basic commands in R. 
+
+::::
+
+:::
+
+## CRAN 
+
+CRAN stands for the Comprehensive R Archive Network. It is the main place where R and R packages are stored and shared. You can think of CRAN as a giant online library for R:
+
+-   It hosts the official version of R.
+
+-   It contains thousands of packages developed by R users from all over the world. 
+
+-   Every package on CRAN is checked and tested, so you know that it is safe and works properly in R. 
+
+-   CRAN keeps documentation and example code for each package, which is helpful when you are learning how to use them. 
+
+::: {.column-margin}
+
+:::: resource
+
+Here is the link to [CRAN](https://cran.r-project.org/).
+
+::::
+
+:::
+
+R has a large update about once a year and minor updates 2 or 3 times per year. You can always find the latest version on the CRAN website. 

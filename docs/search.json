@@ -1,0 +1,943 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Software setup",
+    "section": "",
+    "text": "Welcome to the Software setup module. In this module, you will:\nEach tutorial will comprise a series of interactive lessons with practice problems embedded throughout. Each tutorial section should be wrapped up with a knowledge quiz.\nBy the end, you’ll be ready to start working in RStudio with confidence and begin your journey into data analysis using R.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-goals",
+    "href": "index.html#learning-goals",
+    "title": "Software setup",
+    "section": "Learning Goals",
+    "text": "Learning Goals\nAfter completing this module, you will be able to:\n\nKnow what R and RStudio are:\n\nLearn what R is.\nLearn what RStudio is.\nLearn what open-source software is.\n\n\n\nInstall R and RStudio\n\nLearn how to install R.\nLearn how to install RStudio.\nLearn what to do if installing R and RStudio fails.\n\n\n\nGet a guided tour\n\nUnderstand the R-studio layout\nLearn how to change settings in RStudio.\n\nClick the button below to get started with the first tutorial.\n\n\n Begin Tutorial",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/arithmetic2.html",
+    "href": "quizzes/first_tutorial/questions/arithmetic2.html",
+    "title": "Question",
+    "section": "",
+    "text": "Question\nWhat is the value of \\(x\\) in the following equation?\n\\[\nx = \\frac{5 + 5}{1}\n\\]\nRound your answer to two decimal places.\n\n\nSolution\nAfter rounding, we get 10.00.\n\n\nMeta-information\nexname: Arithmetic extype: num exsolution: 10.00 extol: 0.01\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/default_arguments2.html",
+    "href": "quizzes/first_tutorial/questions/default_arguments2.html",
+    "title": "Question",
+    "section": "",
+    "text": "Use the following help file excerpt to answer the question below.\n\n\n\n\n\n\n\n\ncor\nR Documentation\n\n\n\n\n\n\n\n\n\nvar(x, y = NULL, na.rm = FALSE, use)\n\ncov(x, y = NULL, use = \"everything\",\n    method = c(\"pearson\", \"kendall\", \"spearman\"))\n\ncor(x, y = NULL, use = \"everything\",\n    method = c(\"pearson\", \"kendall\", \"spearman\"))\n\ncov2cor(V)\n\n\n\n\n\n\n\n\nWhat is the default value for the use argument of the cor() function?\n\n\n\n\"everything\"\n\"Everything\n\"spearman\"\n\"pearson\"\n\"kendall\"\nc(\"pearson\", \"spearman\", \"kendall\")\nNULL\nmethod\ny\nx\nThe use argument does not have a defined default value."
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/default_arguments2.html#answerlist",
+    "href": "quizzes/first_tutorial/questions/default_arguments2.html#answerlist",
+    "title": "Question",
+    "section": "",
+    "text": "\"everything\"\n\"Everything\n\"spearman\"\n\"pearson\"\n\"kendall\"\nc(\"pearson\", \"spearman\", \"kendall\")\nNULL\nmethod\ny\nx\nThe use argument does not have a defined default value."
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/default_arguments2.html#answerlist-1",
+    "href": "quizzes/first_tutorial/questions/default_arguments2.html#answerlist-1",
+    "title": "Question",
+    "section": "Answerlist",
+    "text": "Answerlist\n\nCorrect\nWrong: The “E” should be lowercase\nWrong: This is one of the possible methods\nWrong: This is one of the possible methods\nWrong: This is one of the possible methods\nWrong: These are all of the possible methods\nWrong: This is the default value for y\nWrong: This is an argument name\nWrong: This is an argument name\nWrong: This is an argument name\nWrong: There is a default value defined for use."
+  },
+  {
+    "objectID": "quizzes/second_tutorial/questions/default_arguments1.html",
+    "href": "quizzes/second_tutorial/questions/default_arguments1.html",
+    "title": "Question",
+    "section": "",
+    "text": "Which section of an R package help file would you reference to learn the default values for a function’s arguments.\n\n\n\nDescription\nUsage\nArguments\nDetails\nValue\nSee Also\nExamples"
+  },
+  {
+    "objectID": "quizzes/second_tutorial/questions/default_arguments1.html#answerlist",
+    "href": "quizzes/second_tutorial/questions/default_arguments1.html#answerlist",
+    "title": "Question",
+    "section": "",
+    "text": "Description\nUsage\nArguments\nDetails\nValue\nSee Also\nExamples"
+  },
+  {
+    "objectID": "quizzes/second_tutorial/index.html",
+    "href": "quizzes/second_tutorial/index.html",
+    "title": "Knowledge Quiz: Tutorial 2",
+    "section": "",
+    "text": "Note\n\n\n\n\nClick the check-mark button to check your answer.\nClick the question-mark button to see an explanation of the solution.\n\n\n\n\n\n\nYes or No?\n\nYesNoNoYesYes\n\n\n\n\nCorrect\nWrong\nWrong\nWrong\nWrong\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Knowledge Quiz"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic1.html",
+    "href": "tutorials/first_tutorial/topic1.html",
+    "title": "Code Blocks",
+    "section": "",
+    "text": "This is the first topic file for Tutorial 1.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Code Blocks"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic1.html#code-blocks",
+    "href": "tutorials/first_tutorial/topic1.html#code-blocks",
+    "title": "Code Blocks",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nUse knitr code blocks to include non-interactive R code.\n\n## Add 2 and 2\n2 + 2\n\n[1] 4\n\n## Divide 225 by 15 and print the result\n(x &lt;- 225 / 15)\n\n[1] 15\n\n\nUse quarto-webr code blocks for interactive R exercises.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nCode Block Environments\nA single execution environment is shared across code blocks of the same type.\n\nAll the knitr code blocks in a QMD file will share an evaluation environment.\nLikewise for the quarto-webr code blocks\n\n\nx^2\n\n[1] 225\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nknitr and quarto-webr code blocks to not share the same environment, though.\n\nresid(fit)\n\nError: object 'fit' not found\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you want to share objects across code chunk types (e.g., to pose a practice problem using objects created in a knitr chunk), you can regenerate the required objects using a hidden code chunk of the appropriate type.\n\nDon’t forget to set an appropriate seed, if you’re trying to regenerate a stochastic object.\n\n\n\nInline Code\nUse knitr inline code chunks to embed R output in text blocks.\n\nE.g., R says the squareroot of 2 is 1.4142136.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Code Blocks"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic3.html",
+    "href": "tutorials/first_tutorial/topic3.html",
+    "title": "Images & Figures",
+    "section": "",
+    "text": "This is the third topic file for Tutorial 1.\narrange() orders the rows of a data frame by the values of selected columns.\nUnlike other dplyr verbs, arrange() largely ignores grouping; you need to explicitly mention grouping\n    variables (or use  .by_group = TRUE) in order to group by them, and functions of variables are\n    evaluated once per data frame, not once per group.\nUnlike base sorting with sort(), NA are:\nAn object of the same type as .data. The output has the following properties:\nThis function is a generic, which means that packages can provide implementations (methods) for\n    other classes. See the documentation of individual methods for extra arguments and differences in behaviour.\nThe following methods are currently available in loaded packages: no methods found.\nOther single table verbs: \n    filter(),\n    mutate(),\n    reframe(),\n    rename(),\n    select(),\n    slice(),\n    summarise()",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Images & Figures"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic3.html#assets-directory",
+    "href": "tutorials/first_tutorial/topic3.html#assets-directory",
+    "title": "Images & Figures",
+    "section": "Assets Directory",
+    "text": "Assets Directory\nAll pre-rendered assets (i.e., files that will not rendered/compiled into some other format) that you want to include in your website should live somewhere in the “/assets/” directory.\n\n/assets/images/: Image files\n/assets/figures/: Scientific figures (e.g., graphs, plots, diagrams)\n/assets/docs/: Pre-rendered documents (e.g., HTML)",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Images & Figures"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic3.html#images",
+    "href": "tutorials/first_tutorial/topic3.html#images",
+    "title": "Images & Figures",
+    "section": "Images",
+    "text": "Images\n\n\n\nA Nice Mountain View",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Images & Figures"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic3.html#figures",
+    "href": "tutorials/first_tutorial/topic3.html#figures",
+    "title": "Images & Figures",
+    "section": "Figures",
+    "text": "Figures\n\n\n\nSerial Multiple Mediation",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Images & Figures"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic3.html#documents",
+    "href": "tutorials/first_tutorial/topic3.html#documents",
+    "title": "Images & Figures",
+    "section": "Documents",
+    "text": "Documents\nInclude a pre-rendered HTML files as part of this webpage.\nR: Order rows using column values\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\narrange {dplyr}\nR Documentation\n\n\n\n\n\n  Order rows using column values\n\n  Description\n\n  \n  \n\n  Usage\n\n  arrange(.data, ..., .by_group = FALSE)\n\n## S3 method for class 'data.frame'\narrange(.data, ..., .by_group = FALSE, .locale = NULL)\n\n  Arguments\n\n  \n\n\n\n\n\n\n\n.data\nA data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.\n\n\n...\n&lt;data-masking&gt; Variables, or functions of variables. Use desc() to sort a variable in descending order.\n\n\n.by_group\nIf TRUE, will sort first by grouping variable. Applies togrouped data frames only.\n\n\n.locale\nThe locale to sort character vectors in.\n\nIf NULL, the default, uses the \"C\" locale unless the dplyr.legacy_locale global option escape hatch is active. See the dplyr-locale help page for more details.\nIf a single string from stringi::stri_locale_list() is supplied, then this will be used as the locale to sort with. For example, \"en\" will sort with the American English locale. This requires the stringi package.\nIf \"C\" is supplied, then character vectors will always be sorted in the C locale. This does not require stringi and is often much faster than supplying a locale identifier.\n\nThe C locale is not the same as English locales, such as \"en\", particularly when it comes to data containing a mix of upper and lower case letters. This is explained in more detail on the locale help page under the ⁠Default locale⁠ section.\n\n\n\n\n\n  Details\n\n  Missing values\n\n  \n\n  \n    \n       always sorted to the end for local data, even when wrapped with desc().\n    \n    \n       treated differently for remote data, depending on the backend.\n    \n  \n\n  Value\n\n  \n\n  \n    \n       All rows appear in the output, but (usually) in a different place.\n    \n    \n       Columns are not modified.\n    \n    \n       Groups are not modified.\n    \n    \n       Data frame attributes are preserved.\n    \n  \n\n  Methods\n\n  \n  \n\n  See Also\n\n  \n\n  Examples\n\n  arrange(mtcars, cyl, disp)\narrange(mtcars, desc(disp))\n\n# grouped arrange ignores groups\nby_cyl &lt;- mtcars %&gt;% group_by(cyl)\nby_cyl %&gt;% arrange(desc(wt))\n# Unless you specifically ask:\nby_cyl %&gt;% arrange(desc(wt), .by_group = TRUE)\n\n# use embracing when wrapping in a function;\n# see ?rlang::args_data_masking for more details\ntidy_eval_arrange &lt;- function(.data, var) {\n  .data %&gt;%\n    arrange({{ var }})\n}\ntidy_eval_arrange(mtcars, mpg)\n\n# Use `across()` or `pick()` to select columns with tidy-select\niris %&gt;% arrange(pick(starts_with(\"Sepal\")))\niris %&gt;% arrange(across(starts_with(\"Sepal\"), desc))",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Images & Figures"
+    ]
+  },
+  {
+    "objectID": "tutorials/second_tutorial/topic1.html",
+    "href": "tutorials/second_tutorial/topic1.html",
+    "title": "First Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Second Tutorial",
+      "First Topic"
+    ]
+  },
+  {
+    "objectID": "tutorials/second_tutorial/topic1.html#blah",
+    "href": "tutorials/second_tutorial/topic1.html#blah",
+    "title": "First Topic",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Second Tutorial",
+      "First Topic"
+    ]
+  },
+  {
+    "objectID": "in_progress.html",
+    "href": "in_progress.html",
+    "title": "In Progress",
+    "section": "",
+    "text": "Sorry, we’re still building the page you’ve requested.\nIt’s almost done…really.\nWe’re just working through a few minor issues…\n\n\n\nImage Source"
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "Conclusion",
+    "section": "",
+    "text": "In this module, you have learned what R and RStudio are, how to install them, and how to adjust some key settings to make your experience smoother and more comfortable.\nYou now know:\n\nWhat R and RStudio are used for\nHow to install them safely and update if needed\nHow to find your way around the RStudio interface\nWhich settings help beginners get started with confidence\n\nYou are now all set to continue with the next module. Here we take the first steps into writing R code.\n\n\n Next Module \n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Conclusion"
+    ]
+  },
+  {
+    "objectID": "conclusion.html#next-steps",
+    "href": "conclusion.html#next-steps",
+    "title": "Conclusion",
+    "section": "Next Steps",
+    "text": "Next Steps\nIf your module feeds naturally into another, link that module through the button below as a suggestion for further study.\n\nHere, we’re linking to the First Steps module.\n\n\n\n Next Module",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Conclusion"
+    ]
+  },
+  {
+    "objectID": "tutorials/second_tutorial/topic2.html",
+    "href": "tutorials/second_tutorial/topic2.html",
+    "title": "Second Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Second Tutorial",
+      "Second Topic"
+    ]
+  },
+  {
+    "objectID": "tutorials/second_tutorial/index.html",
+    "href": "tutorials/second_tutorial/index.html",
+    "title": "Second Tutorial",
+    "section": "",
+    "text": "This is the landing page for the second tutorial.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Second Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorials/second_tutorial/index.html#blah",
+    "href": "tutorials/second_tutorial/index.html#blah",
+    "title": "Second Tutorial",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nBlah, Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Second Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic2.html",
+    "href": "tutorials/first_tutorial/topic2.html",
+    "title": "Divs & Callouts",
+    "section": "",
+    "text": "This is the second topic file for Tutorial 1.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Divs & Callouts"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic2.html#callout-blocks",
+    "href": "tutorials/first_tutorial/topic2.html#callout-blocks",
+    "title": "Divs & Callouts",
+    "section": "Callout Blocks",
+    "text": "Callout Blocks\nUse callout blocks to highlight special information.\n\n\n\n\n\n\nNote Title\n\n\n\nSomething noteworthy.\n\n\n\n\n\n\n\n\nTip Title\n\n\n\nHere’s a tip for ya…\n\n\n\n\n\n\n\n\nImportant Title\n\n\n\nThis is very important!\n\n\n\n\n\n\n\n\nWarning Title\n\n\n\nYou’ve been warned.\n\n\n\n\n\n\n\n\nCaution Title\n\n\n\nProceed with caution.\n\n\n\nCustom Callouts\nThis project uses the quarto-custom-callout extension to provide some bespoke callout blocks. This template already defines four such blocks.\nA reading callout to highlight relevant, recommended literature.\n\nI.e., These sources would be the required reading in a classroom context.\n\n\n\n\n\n\n\nReading\n\n\n\nR4DS 2: Workflow Basics\n\n\nA reading-advanced callout to highlight relevant, but technically challanging, literature.\n\nI.e., These sources would be supplementary reference materials but not required reading in a classroom context.\n\n\n\n\n\n\n\nAdvanced Reading\n\n\n\nAdvanced R 2.2: Binding Basics\n\n\nA resource callout to highlight related external resources.\n\n\n\n\n\n\nExternal Resources\n\n\n\nFor a different take on these ideas, check out Andrew Heiss’ R Primers tutorial on the topic\n\nR Primers: Programming Basics\n\n\n\n\n\nPractice Callouts\nThe custom practice callout is reserved for inline practice problems.\n\nThe panel-tabset div nested within the practice div creates a set of tabs to organize the exercise components.\nEach Level 2 heading inside the panel-tabset div defines a new tab.\n\nIn the examples below, the tab titles are specified through quarto shortcode variables.\nThese variables are defined in the _variables.yml metadata file.\n\n\n\n\n\n\n\n\nExample Code Exercise\n\n\n\n\nRegress Petal.Width onto Species using the iris dataset.\nCreate a normal Q-Q plot of the residuals.\n\n\n Interactive Editor Hint Solution\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nRemember what happens when you call the Base R plot() function on a fitted lm object.\n\n\n\nFirst, we’ll use the lm() function to estimate the model.\n\n\nfit1 &lt;- lm(Petal.Width ~ Species, data = iris)\n\n\nThen, we’ll use the default plotting method for lm objects to create the Q-Q plot.\n\n\nplot(fit1, 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Theory Question\n\n\n\n\n Question Solution\n\n\nWhat is the answer to life, the universe, and everything?\n\n\n42",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Divs & Callouts"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/topic2.html#using-the-website-margin",
+    "href": "tutorials/first_tutorial/topic2.html#using-the-website-margin",
+    "title": "Divs & Callouts",
+    "section": "Using the Website Margin",
+    "text": "Using the Website Margin\nIn the previous section, all callout blocks are placed in the website body. In most cases, however, callout blocks are better placed in the website margin.\n\nPlacing supporting elements like links, callouts, and references in the margin streamlines the main body content while keeping the supporting information near the relevant main body content.\n\nTo place content in the website margine, we use the column-margin div.\n\nExample\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida bibendum ex, quis cursus risus vestibulum vel. Aliquam hendrerit in enim in suscipit. Nunc at fringilla velit, a faucibus tellus. Etiam mollis, massa id finibus volutpat, tellus nulla egestas mauris, id tempus sem ipsum quis neque. Pellentesque sodales pharetra nulla id sodales. Vestibulum tincidunt orci in sem malesuada, in malesuada odio lacinia. Integer sodales, quam eu imperdiet commodo, est ipsum interdum risus, et volutpat mi justo blandit est. Donec non nisl lobortis, vestibulum lorem non, iaculis felis. Curabitur tempus sagittis volutpat. Nam dignissim eros ac gravida ultricies. Curabitur velit nisl, cursus in lobortis id, porttitor in massa. Vestibulum commodo, turpis vitae laoreet efficitur, diam sem consectetur felis, non pulvinar magna elit id justo. Duis tincidunt id massa eget lacinia.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\nNam vulputate tellus metus, id pretium nisi congue eu. Ut ornare, sem id cursus suscipit, dui purus efficitur urna, id auctor magna diam quis lorem. Cras venenatis id dui at rhoncus. Donec consequat nulla vel arcu vestibulum, ac posuere leo venenatis. Praesent fermentum est ac lorem condimentum, gravida volutpat velit sagittis. Cras ac egestas nisi. Duis eget luctus quam. Donec consectetur neque nec egestas ultricies.\n\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nWikipedia: Central Limit Theorem",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Divs & Callouts"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/index.html",
+    "href": "tutorials/first_tutorial/index.html",
+    "title": "First Tutorial",
+    "section": "",
+    "text": "This is the landing page for the first tutorial. Each tutorial section should begin with a landing page named “index.qmd”.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial"
+    ]
+  },
+  {
+    "objectID": "tutorials/first_tutorial/index.html#headings",
+    "href": "tutorials/first_tutorial/index.html#headings",
+    "title": "First Tutorial",
+    "section": "Headings",
+    "text": "Headings\nThe title field of each QMD source file is typeset as a Level 1 heading, so use Level-2 headings as the highest heading level in your markdown.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial"
+    ]
+  },
+  {
+    "objectID": "quizzes/second_tutorial/questions/bad_question.html",
+    "href": "quizzes/second_tutorial/questions/bad_question.html",
+    "title": "Question",
+    "section": "",
+    "text": "Yes or No?\n\n\n\nYes\nYes\nYes\nYes\nYes\nNo\nNo\nNo\nNo\nNo"
+  },
+  {
+    "objectID": "quizzes/second_tutorial/questions/bad_question.html#answerlist",
+    "href": "quizzes/second_tutorial/questions/bad_question.html#answerlist",
+    "title": "Question",
+    "section": "",
+    "text": "Yes\nYes\nYes\nYes\nYes\nNo\nNo\nNo\nNo\nNo"
+  },
+  {
+    "objectID": "quizzes/second_tutorial/questions/bad_question.html#answerlist-1",
+    "href": "quizzes/second_tutorial/questions/bad_question.html#answerlist-1",
+    "title": "Question",
+    "section": "Answerlist",
+    "text": "Answerlist\n\nCorrect\nWrong\nWrong\nWrong\nWrong\nWrong\nWrong\nWrong\nWrong\nWrong"
+  },
+  {
+    "objectID": "quizzes/first_tutorial/index.html",
+    "href": "quizzes/first_tutorial/index.html",
+    "title": "Knowledge Quiz: Tutorial 1",
+    "section": "",
+    "text": "Note\n\n\n\n\nClick the check-mark button to check your answer.\nClick the question-mark button to see an explanation of the solution.\n\n\n\n\n\n\nWhich of the following expressions will return TRUE?\n\n!TRUE(8 + 6) &lt; (8 * 6)TRUE(8 - 1) == 7 & 7 &gt;= (14 / 2)FALSE\"foo\" == \"bar\"\n\n\n\n\nFALSE: Trivial negation\nTRUE: 14 is strictly less than 48\nTRUE: Trivially\nTRUE: 7 is equal to 7, and 7 is greater than or equal to 7\nFALSE: Trivially\nFALSE: “foo” is not equal to “bar”\n\n\n\n\n\nWhat is the value of \\(x\\) in the following equation?\n\\[\nx = \\frac{1 + 2}{4}\n\\]\nRound your answer to two decimal places.\n\n\n\nAfter rounding, we get 0.75.\n\n\n\n\nUse the following help file excerpt to answer the question below.\n\n\n\n\n\n\n\n\ncor\nR Documentation\n\n\n\n\n\nCorrelation, Variance and Covariance (Matrices)\n\nUsage\n\nvar(x, y = NULL, na.rm = FALSE, use)\n\ncov(x, y = NULL, use = \"everything\",\n    method = c(\"pearson\", \"kendall\", \"spearman\"))\n\ncor(x, y = NULL, use = \"everything\",\n    method = c(\"pearson\", \"kendall\", \"spearman\"))\n\ncov2cor(V)\n\n\n\n\n\n\n\n\nWhat is the default value for the use argument of the cor() function?\n\n\"everything\"\"EverythingNULLc(\"pearson\", \"spearman\", \"kendall\")\"spearman\"\n\n\n\nThe default value for the use argument is \"everything\".\n\nCorrect\nWrong: The “E” should be lowercase\nWrong: This is the default value for y\nWrong: These are all of the possible methods\nWrong: This is one of the possible methods\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "First Tutorial",
+      "Knowledge Quiz"
+    ]
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/logical.html",
+    "href": "quizzes/first_tutorial/questions/logical.html",
+    "title": "Question",
+    "section": "",
+    "text": "Which of the following expressions will return TRUE?\n\n\n\n\"foo\" != \"bar\"\n(8 + 6) &lt; (8 * 6)\n(8 - 1) == 7 & 7 &gt;= (14 / 2)\n\"alice\" == \"bob\" | \"alice\" == \"alice\"\n!(6 &gt; 7)\nTRUE\nFALSE\n\"foo\" == \"bar\"\n(8 - 1) == 7 & 7 &gt; (14 / 2)\n\"alice\" == \"bob\" | \"alice\" != \"alice\"\n\"alice\" == \"bob\" & \"alice\" == \"alice\"\n!TRUE\nTRUE & FALSE"
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/logical.html#answerlist",
+    "href": "quizzes/first_tutorial/questions/logical.html#answerlist",
+    "title": "Question",
+    "section": "",
+    "text": "\"foo\" != \"bar\"\n(8 + 6) &lt; (8 * 6)\n(8 - 1) == 7 & 7 &gt;= (14 / 2)\n\"alice\" == \"bob\" | \"alice\" == \"alice\"\n!(6 &gt; 7)\nTRUE\nFALSE\n\"foo\" == \"bar\"\n(8 - 1) == 7 & 7 &gt; (14 / 2)\n\"alice\" == \"bob\" | \"alice\" != \"alice\"\n\"alice\" == \"bob\" & \"alice\" == \"alice\"\n!TRUE\nTRUE & FALSE"
+  },
+  {
+    "objectID": "quizzes/first_tutorial/questions/logical.html#answerlist-1",
+    "href": "quizzes/first_tutorial/questions/logical.html#answerlist-1",
+    "title": "Question",
+    "section": "Answerlist",
+    "text": "Answerlist\n\nTRUE: “foo” is not equal to “bar”\nTRUE: 14 is strictly less than 48\nTRUE: 7 is equal to 7, and 7 is greater than or equal to 7\nTRUE: “alice” is not equal to “bob”, but “alice is equal to”alice”\nTRUE: 6 is not strictly greater than 7, and that result is negated\nTRUE: Trivially\nFALSE: Trivially\nFALSE: “foo” is not equal to “bar”\nFALSE: 7 is equal to 7, but 7 is not strictly greater than 7\nFALSE: “alice” is not equal to “bob”, and “alice” is equal to “alice”\nFALSE: “alice” is not equal to “bob”\nFALSE: Trivial negation\nFALSE: Trivially"
+  },
+  {
+    "objectID": "tutorials/whatis/whatisr.html",
+    "href": "tutorials/whatis/whatisr.html",
+    "title": "What is R",
+    "section": "",
+    "text": "R is a programming language an software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.\nR was created in the 1990s by two statisticians, Ross Ihaka and Robert Gentleman, at the University of Auckland in New Zealand. They named it “R” after the first letters of their names and also as a nod to the programming language S, which R was based on. Over time, R has evolved with contributions from thousands of users around the world, and today it is the go-to software program for statisticians and computational social scientists worldwide. Therefore, it is essential to have in your toolkit as an applied data scientist or researcher in the field of methodology and statistics.\nYou can use R to:\n\nWork with data in tables or spreadsheets\nMake plots and graphs\nDo statistical tests and apply models\nClean, reshape and summarize data\nAutomate data tasks\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nYou can read more about R at the FAQ",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisr.html#code-blocks",
+    "href": "tutorials/whatis/whatisr.html#code-blocks",
+    "title": "Code Blocks",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nUse knitr code blocks to include non-interactive R code.\n\n## Add 2 and 2\n2 + 2\n\n[1] 4\n\n## Divide 225 by 15 and print the result\n(x &lt;- 225 / 15)\n\n[1] 15\n\n\nUse quarto-webr code blocks for interactive R exercises.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nCode Block Environments\nA single execution environment is shared across code blocks of the same type.\n\nAll the knitr code blocks in a QMD file will share an evaluation environment.\nLikewise for the quarto-webr code blocks\n\n\nx^2\n\n[1] 225\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nknitr and quarto-webr code blocks to not share the same environment, though.\n\nresid(fit)\n\nError: object 'fit' not found\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you want to share objects across code chunk types (e.g., to pose a practice problem using objects created in a knitr chunk), you can regenerate the required objects using a hidden code chunk of the appropriate type.\n\nDon’t forget to set an appropriate seed, if you’re trying to regenerate a stochastic object.\n\n\n\nInline Code\nUse knitr inline code chunks to embed R output in text blocks.\n\nE.g., R says the squareroot of 2 is 1.4142136.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What is R",
+      "Code Blocks"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisrstudio.html",
+    "href": "tutorials/whatis/whatisrstudio.html",
+    "title": "What is RStudio",
+    "section": "",
+    "text": "To use R, you write code. These are lines of text that tell the computer what to do with your data. You can run code in the R console, but most people use it through RStudio. RStudio is a friendly interface that makes coding easier.\nRStudio is an Integrated Development Environment (IDE) that makes coding much easier. It helps you to:\n\nWrite, organize and run your R code mode efficiently\nView your data, code and results in one place\nCreate plots, manage files and install packages\nGet useful hints as you type (like autocomplete and error messages)\n\nYou still need to have R installed, because RStudio runs on top of R, it doesn’t replace it. But once both are installed, RStudio becomes the main way most people work with R.\nRStudio is developed by a company called Posit (formerly known as RStudio Inc.). RStudio is available for free on their website.\n\n\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nThe Posit website\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisrstudio.html#code-blocks",
+    "href": "tutorials/whatis/whatisrstudio.html#code-blocks",
+    "title": "Code Blocks",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nUse knitr code blocks to include non-interactive R code.\n\n## Add 2 and 2\n2 + 2\n\n[1] 4\n\n## Divide 225 by 15 and print the result\n(x &lt;- 225 / 15)\n\n[1] 15\n\n\nUse quarto-webr code blocks for interactive R exercises.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nCode Block Environments\nA single execution environment is shared across code blocks of the same type.\n\nAll the knitr code blocks in a QMD file will share an evaluation environment.\nLikewise for the quarto-webr code blocks\n\n\nx^2\n\n[1] 225\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nknitr and quarto-webr code blocks to not share the same environment, though.\n\nresid(fit)\n\nError: object 'fit' not found\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you want to share objects across code chunk types (e.g., to pose a practice problem using objects created in a knitr chunk), you can regenerate the required objects using a hidden code chunk of the appropriate type.\n\nDon’t forget to set an appropriate seed, if you’re trying to regenerate a stochastic object.\n\n\n\nInline Code\nUse knitr inline code chunks to embed R output in text blocks.\n\nE.g., R says the squareroot of 2 is 1.4142136.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What is R",
+      "Code Blocks"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/topic1.html",
+    "href": "tutorials/whatis/topic1.html",
+    "title": "Code Blocks",
+    "section": "",
+    "text": "This is the first topic file for Tutorial 1."
+  },
+  {
+    "objectID": "tutorials/whatis/topic1.html#code-blocks",
+    "href": "tutorials/whatis/topic1.html#code-blocks",
+    "title": "Code Blocks",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nUse knitr code blocks to include non-interactive R code.\n\n## Add 2 and 2\n2 + 2\n\n[1] 4\n\n## Divide 225 by 15 and print the result\n(x &lt;- 225 / 15)\n\n[1] 15\n\n\nUse quarto-webr code blocks for interactive R exercises.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nCode Block Environments\nA single execution environment is shared across code blocks of the same type.\n\nAll the knitr code blocks in a QMD file will share an evaluation environment.\nLikewise for the quarto-webr code blocks\n\n\nx^2\n\n[1] 225\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nknitr and quarto-webr code blocks to not share the same environment, though.\n\nresid(fit)\n\nError: object 'fit' not found\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you want to share objects across code chunk types (e.g., to pose a practice problem using objects created in a knitr chunk), you can regenerate the required objects using a hidden code chunk of the appropriate type.\n\nDon’t forget to set an appropriate seed, if you’re trying to regenerate a stochastic object.\n\n\n\nInline Code\nUse knitr inline code chunks to embed R output in text blocks.\n\nE.g., R says the squareroot of 2 is 1.4142136."
+  },
+  {
+    "objectID": "tutorials/whatis/topic3.html",
+    "href": "tutorials/whatis/topic3.html",
+    "title": "Images & Figures",
+    "section": "",
+    "text": "This is the third topic file for Tutorial 1.\narrange() orders the rows of a data frame by the values of selected columns.\nUnlike other dplyr verbs, arrange() largely ignores grouping; you need to explicitly mention grouping\n    variables (or use  .by_group = TRUE) in order to group by them, and functions of variables are\n    evaluated once per data frame, not once per group.\nUnlike base sorting with sort(), NA are:\nAn object of the same type as .data. The output has the following properties:\nThis function is a generic, which means that packages can provide implementations (methods) for\n    other classes. See the documentation of individual methods for extra arguments and differences in behaviour.\nThe following methods are currently available in loaded packages: no methods found.\nOther single table verbs: \n    filter(),\n    mutate(),\n    reframe(),\n    rename(),\n    select(),\n    slice(),\n    summarise()"
+  },
+  {
+    "objectID": "tutorials/whatis/topic3.html#assets-directory",
+    "href": "tutorials/whatis/topic3.html#assets-directory",
+    "title": "Images & Figures",
+    "section": "Assets Directory",
+    "text": "Assets Directory\nAll pre-rendered assets (i.e., files that will not rendered/compiled into some other format) that you want to include in your website should live somewhere in the “/assets/” directory.\n\n/assets/images/: Image files\n/assets/figures/: Scientific figures (e.g., graphs, plots, diagrams)\n/assets/docs/: Pre-rendered documents (e.g., HTML)"
+  },
+  {
+    "objectID": "tutorials/whatis/topic3.html#images",
+    "href": "tutorials/whatis/topic3.html#images",
+    "title": "Images & Figures",
+    "section": "Images",
+    "text": "Images\n\n\n\nA Nice Mountain View"
+  },
+  {
+    "objectID": "tutorials/whatis/topic3.html#figures",
+    "href": "tutorials/whatis/topic3.html#figures",
+    "title": "Images & Figures",
+    "section": "Figures",
+    "text": "Figures\n\n\n\nSerial Multiple Mediation"
+  },
+  {
+    "objectID": "tutorials/whatis/topic3.html#documents",
+    "href": "tutorials/whatis/topic3.html#documents",
+    "title": "Images & Figures",
+    "section": "Documents",
+    "text": "Documents\nInclude a pre-rendered HTML files as part of this webpage.\nR: Order rows using column values\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\narrange {dplyr}\nR Documentation\n\n\n\n\n\n  Order rows using column values\n\n  Description\n\n  \n  \n\n  Usage\n\n  arrange(.data, ..., .by_group = FALSE)\n\n## S3 method for class 'data.frame'\narrange(.data, ..., .by_group = FALSE, .locale = NULL)\n\n  Arguments\n\n  \n\n\n\n\n\n\n\n.data\nA data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.\n\n\n...\n&lt;data-masking&gt; Variables, or functions of variables. Use desc() to sort a variable in descending order.\n\n\n.by_group\nIf TRUE, will sort first by grouping variable. Applies togrouped data frames only.\n\n\n.locale\nThe locale to sort character vectors in.\n\nIf NULL, the default, uses the \"C\" locale unless the dplyr.legacy_locale global option escape hatch is active. See the dplyr-locale help page for more details.\nIf a single string from stringi::stri_locale_list() is supplied, then this will be used as the locale to sort with. For example, \"en\" will sort with the American English locale. This requires the stringi package.\nIf \"C\" is supplied, then character vectors will always be sorted in the C locale. This does not require stringi and is often much faster than supplying a locale identifier.\n\nThe C locale is not the same as English locales, such as \"en\", particularly when it comes to data containing a mix of upper and lower case letters. This is explained in more detail on the locale help page under the ⁠Default locale⁠ section.\n\n\n\n\n\n  Details\n\n  Missing values\n\n  \n\n  \n    \n       always sorted to the end for local data, even when wrapped with desc().\n    \n    \n       treated differently for remote data, depending on the backend.\n    \n  \n\n  Value\n\n  \n\n  \n    \n       All rows appear in the output, but (usually) in a different place.\n    \n    \n       Columns are not modified.\n    \n    \n       Groups are not modified.\n    \n    \n       Data frame attributes are preserved.\n    \n  \n\n  Methods\n\n  \n  \n\n  See Also\n\n  \n\n  Examples\n\n  arrange(mtcars, cyl, disp)\narrange(mtcars, desc(disp))\n\n# grouped arrange ignores groups\nby_cyl &lt;- mtcars %&gt;% group_by(cyl)\nby_cyl %&gt;% arrange(desc(wt))\n# Unless you specifically ask:\nby_cyl %&gt;% arrange(desc(wt), .by_group = TRUE)\n\n# use embracing when wrapping in a function;\n# see ?rlang::args_data_masking for more details\ntidy_eval_arrange &lt;- function(.data, var) {\n  .data %&gt;%\n    arrange({{ var }})\n}\ntidy_eval_arrange(mtcars, mpg)\n\n# Use `across()` or `pick()` to select columns with tidy-select\niris %&gt;% arrange(pick(starts_with(\"Sepal\")))\niris %&gt;% arrange(across(starts_with(\"Sepal\"), desc))"
+  },
+  {
+    "objectID": "tutorials/guidedtour/topic1.html",
+    "href": "tutorials/guidedtour/topic1.html",
+    "title": "First Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  },
+  {
+    "objectID": "tutorials/guidedtour/topic1.html#blah",
+    "href": "tutorials/guidedtour/topic1.html#blah",
+    "title": "First Topic",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "tutorials/install/index.html",
+    "href": "tutorials/install/index.html",
+    "title": "Install R and RStudio",
+    "section": "",
+    "text": "Now that you know what R and RStudio are, it is time to get them set up on your computer. In the next tutorials, we will walk you through how to install R first and RStudio next.\nDon’t worry if something doesn’t work. We will also provide alternative options in case installation doesn’t go as planned.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/index.html#blah",
+    "href": "tutorials/install/index.html#blah",
+    "title": "Second Tutorial",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nBlah, Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "tutorials/install/topic2.html",
+    "href": "tutorials/install/topic2.html",
+    "title": "Second Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "tutorials/install/topic1.html",
+    "href": "tutorials/install/topic1.html",
+    "title": "First Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  },
+  {
+    "objectID": "tutorials/install/topic1.html#blah",
+    "href": "tutorials/install/topic1.html#blah",
+    "title": "First Topic",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "tutorials/guidedtour/topic2.html",
+    "href": "tutorials/guidedtour/topic2.html",
+    "title": "Second Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "tutorials/guidedtour/index.html",
+    "href": "tutorials/guidedtour/index.html",
+    "title": "A guided tour through RStudio",
+    "section": "",
+    "text": "Before we start writing code, let’s take some time to explore RStudio, the main tool you will be using to work with R. Learning your way around RStudio will help you feel more confident and make it easier to follow along with the rest of the modules and any other analyses you will be doing.\nAfter this tutorial, you will be ready to start coding with confidence. Let’s dive in!\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/index.html#blah",
+    "href": "tutorials/guidedtour/index.html#blah",
+    "title": "Second Tutorial",
+    "section": "Blah",
+    "text": "Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nBlah, Blah\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti."
+  },
+  {
+    "objectID": "tutorials/whatis/topic2.html",
+    "href": "tutorials/whatis/topic2.html",
+    "title": "Divs & Callouts",
+    "section": "",
+    "text": "This is the second topic file for Tutorial 1."
+  },
+  {
+    "objectID": "tutorials/whatis/topic2.html#callout-blocks",
+    "href": "tutorials/whatis/topic2.html#callout-blocks",
+    "title": "Divs & Callouts",
+    "section": "Callout Blocks",
+    "text": "Callout Blocks\nUse callout blocks to highlight special information.\n\n\n\n\n\n\nNote Title\n\n\n\nSomething noteworthy.\n\n\n\n\n\n\n\n\nTip Title\n\n\n\nHere’s a tip for ya…\n\n\n\n\n\n\n\n\nImportant Title\n\n\n\nThis is very important!\n\n\n\n\n\n\n\n\nWarning Title\n\n\n\nYou’ve been warned.\n\n\n\n\n\n\n\n\nCaution Title\n\n\n\nProceed with caution.\n\n\n\nCustom Callouts\nThis project uses the quarto-custom-callout extension to provide some bespoke callout blocks. This template already defines four such blocks.\nA reading callout to highlight relevant, recommended literature.\n\nI.e., These sources would be the required reading in a classroom context.\n\n\n\n\n\n\n\nReading\n\n\n\nR4DS 2: Workflow Basics\n\n\nA reading-advanced callout to highlight relevant, but technically challanging, literature.\n\nI.e., These sources would be supplementary reference materials but not required reading in a classroom context.\n\n\n\n\n\n\n\nAdvanced Reading\n\n\n\nAdvanced R 2.2: Binding Basics\n\n\nA resource callout to highlight related external resources.\n\n\n\n\n\n\nExternal Resources\n\n\n\nFor a different take on these ideas, check out Andrew Heiss’ R Primers tutorial on the topic\n\nR Primers: Programming Basics\n\n\n\n\n\nPractice Callouts\nThe custom practice callout is reserved for inline practice problems.\n\nThe panel-tabset div nested within the practice div creates a set of tabs to organize the exercise components.\nEach Level 2 heading inside the panel-tabset div defines a new tab.\n\nIn the examples below, the tab titles are specified through quarto shortcode variables.\nThese variables are defined in the _variables.yml metadata file.\n\n\n\n\n\n\n\n\nExample Code Exercise\n\n\n\n\nRegress Petal.Width onto Species using the iris dataset.\nCreate a normal Q-Q plot of the residuals.\n\n\n Interactive Editor Hint Solution\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nRemember what happens when you call the Base R plot() function on a fitted lm object.\n\n\n\nFirst, we’ll use the lm() function to estimate the model.\n\n\nfit1 &lt;- lm(Petal.Width ~ Species, data = iris)\n\n\nThen, we’ll use the default plotting method for lm objects to create the Q-Q plot.\n\n\nplot(fit1, 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Theory Question\n\n\n\n\n Question Solution\n\n\nWhat is the answer to life, the universe, and everything?\n\n\n42"
+  },
+  {
+    "objectID": "tutorials/whatis/topic2.html#using-the-website-margin",
+    "href": "tutorials/whatis/topic2.html#using-the-website-margin",
+    "title": "Divs & Callouts",
+    "section": "Using the Website Margin",
+    "text": "Using the Website Margin\nIn the previous section, all callout blocks are placed in the website body. In most cases, however, callout blocks are better placed in the website margin.\n\nPlacing supporting elements like links, callouts, and references in the margin streamlines the main body content while keeping the supporting information near the relevant main body content.\n\nTo place content in the website margine, we use the column-margin div.\n\nExample\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida bibendum ex, quis cursus risus vestibulum vel. Aliquam hendrerit in enim in suscipit. Nunc at fringilla velit, a faucibus tellus. Etiam mollis, massa id finibus volutpat, tellus nulla egestas mauris, id tempus sem ipsum quis neque. Pellentesque sodales pharetra nulla id sodales. Vestibulum tincidunt orci in sem malesuada, in malesuada odio lacinia. Integer sodales, quam eu imperdiet commodo, est ipsum interdum risus, et volutpat mi justo blandit est. Donec non nisl lobortis, vestibulum lorem non, iaculis felis. Curabitur tempus sagittis volutpat. Nam dignissim eros ac gravida ultricies. Curabitur velit nisl, cursus in lobortis id, porttitor in massa. Vestibulum commodo, turpis vitae laoreet efficitur, diam sem consectetur felis, non pulvinar magna elit id justo. Duis tincidunt id massa eget lacinia.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\nNam vulputate tellus metus, id pretium nisi congue eu. Ut ornare, sem id cursus suscipit, dui purus efficitur urna, id auctor magna diam quis lorem. Cras venenatis id dui at rhoncus. Donec consequat nulla vel arcu vestibulum, ac posuere leo venenatis. Praesent fermentum est ac lorem condimentum, gravida volutpat velit sagittis. Cras ac egestas nisi. Duis eget luctus quam. Donec consectetur neque nec egestas ultricies.\n\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nWikipedia: Central Limit Theorem"
+  },
+  {
+    "objectID": "tutorials/whatis/index.html",
+    "href": "tutorials/whatis/index.html",
+    "title": "What are R and RStudio",
+    "section": "",
+    "text": "R is a programming language, that you will learn all about throughout the modules on this website. In addition, RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code. Both R and RStudio are free and open-source available. This tutorial gives you a better understand of how these programs work and what it means to be open-source.\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisopensource.html",
+    "href": "tutorials/whatis/whatisopensource.html",
+    "title": "What is open source",
+    "section": "",
+    "text": "Both R and RStudio are available to download and use completely free of charge. They are also open source, which means their code is publicly available for anyone to view, use and improve.\nOpen source software is often built by communities of developers and researchers who work together to make the software better for everyone.\nWhile the standard versions of R and RStudio are free and open source, there are also paid versions available, especially for companies and enterprise environments. These offer extra features like advanced collaboration tools, security and technical support. For most learners, researchers and individual users, the free versions are more than enough.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is open source"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisopensource.html#code-blocks",
+    "href": "tutorials/whatis/whatisopensource.html#code-blocks",
+    "title": "Code Blocks",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nUse knitr code blocks to include non-interactive R code.\n\n## Add 2 and 2\n2 + 2\n\n[1] 4\n\n## Divide 225 by 15 and print the result\n(x &lt;- 225 / 15)\n\n[1] 15\n\n\nUse quarto-webr code blocks for interactive R exercises.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nCode Block Environments\nA single execution environment is shared across code blocks of the same type.\n\nAll the knitr code blocks in a QMD file will share an evaluation environment.\nLikewise for the quarto-webr code blocks\n\n\nx^2\n\n[1] 225\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nknitr and quarto-webr code blocks to not share the same environment, though.\n\nresid(fit)\n\nError: object 'fit' not found\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you want to share objects across code chunk types (e.g., to pose a practice problem using objects created in a knitr chunk), you can regenerate the required objects using a hidden code chunk of the appropriate type.\n\nDon’t forget to set an appropriate seed, if you’re trying to regenerate a stochastic object.\n\n\n\nInline Code\nUse knitr inline code chunks to embed R output in text blocks.\n\nE.g., R says the squareroot of 2 is 1.4142136."
+  },
+  {
+    "objectID": "tutorials/whatis/whatisr.html#base-r",
+    "href": "tutorials/whatis/whatisr.html#base-r",
+    "title": "What is R",
+    "section": "Base R",
+    "text": "Base R\nR comes with a set of basic tools which you can use to do math and statistics, create simple plots, read and write files and to write your own functions and programs. This set of basic tools is referred to as “Base R”. However, there are many more tools available through so-called “packages”. These are add-ons created by other users that let you do more advanced or specialized tasks.\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nThe Base R Cheat Sheet is a useful resource for the basic commands in R.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisr.html#cran",
+    "href": "tutorials/whatis/whatisr.html#cran",
+    "title": "What is R",
+    "section": "CRAN",
+    "text": "CRAN\nCRAN stands for the Comprehensive R Archive Network. It is the main place where R and R packages are stored and shared. You can think of CRAN as a giant online library for R:\n\nIt hosts the official version of R.\nIt contains thousands of packages developed by R users from all over the world.\nEvery package on CRAN is checked and tested, so you know that it is safe and works properly in R.\nCRAN keeps documentation and example code for each package, which is helpful when you are learning how to use them.\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nHere is the link to CRAN.\n\n\nR has a large update about once a year and minor updates 2 or 3 times per year. You can always find the latest version on the CRAN website.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisr.html#r",
+    "href": "tutorials/whatis/whatisr.html#r",
+    "title": "What is R",
+    "section": "",
+    "text": "R is a programming language an software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.\nR was created in the 1990s by two statisticians, Ross Ihaka and Robert Gentleman, at the University of Auckland in New Zealand. They named it “R” after the first letters of their names and also as a nod to the programming language S, which R was based on. Over time, R has evolved with contributions from thousands of users around the world, and today it is the go-to software program for statisticians and computational social scientists worldwide. Therefore, it is essential to have in your toolkit as an applied data scientist or researcher in the field of methodology and statistics.\nYou can use R to:\n\nWork with data in tables or spreadsheets\nMake plots and graphs\nDo statistical tests and apply models\nClean, reshape and summarize data\nAutomate data tasks\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nYou can read more about R at the FAQ",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisopensource.html#open-source",
+    "href": "tutorials/whatis/whatisopensource.html#open-source",
+    "title": "What is open source",
+    "section": "",
+    "text": "Both R and RStudio are available to download and use completely free of charge. They are also open source, which means their code is publicly available for anyone to view, use and improve.\nOpen source software is often built by communities of developers and researchers who work together to make the software better for everyone.\nWhile the standard versions of R and RStudio are free and open source, there are also paid versions available, especially for companies and enterprise environments. These offer extra features like advanced collaboration tools, security and technical support. For most learners, researchers and individual users, the free versions are more than enough.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is open source"
+    ]
+  },
+  {
+    "objectID": "tutorials/whatis/whatisopensource.html#open-science",
+    "href": "tutorials/whatis/whatisopensource.html#open-science",
+    "title": "What is open source",
+    "section": "Open Science",
+    "text": "Open Science\nThe idea of open source software is closely connected to the principles of open science. Both aim to make knowledge and tools freely available, transparent and collaborative. In open science, researchers share data, methods and results so that others can reproduce, verify and build on their work. Open source software supports this by providing tools that anyone can inspect, use and improve, helping to make research more accessible, trustworthy and inclusive.\nUsing tools like R and RStudio supports not just learning data analysis, but also a broader culture of openness and collaboration in science.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "What are R and RStudio",
+      "What is open source"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/index.html#system-requirements",
+    "href": "tutorials/install/index.html#system-requirements",
+    "title": "Install R and RStudio",
+    "section": "System requirements",
+    "text": "System requirements\nBefore you start, make sure that you have full write access and administrator rights on your computer. Since we will explore programming and compiling in the modules on this website, you need full access to your machine. Sometimes corporate laptops limit the access for their users. Therefore, we advice to use a personal laptop where you install R and RStudio.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installr.html",
+    "href": "tutorials/install/installr.html",
+    "title": "Install R",
+    "section": "",
+    "text": "Since we. use RStudio on top of R, we need to start by installing R first. R is the underlying enging that runs your code, while RStudio is the interface that makes it easier to work with.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installr.html#installing-r-from-cran",
+    "href": "tutorials/install/installr.html#installing-r-from-cran",
+    "title": "Install R",
+    "section": "Installing R from CRAN",
+    "text": "Installing R from CRAN\nYou install R from the CRAN website (Comprehensive R Archive Network), which is the official source for R.\nR can be installed on:\n\nWindows\nMacOS\nLinux\n\nTo install R:\n\nGo to the CRAN download page.\nClick on the link that matches your operating system (e.g. Download R for Windows)\nFollow the instructions on the screen. The default settings are usually fine.\nOnce installed, you can test it by opening the R application. However, we will typically not use it directly like this, since we will use RStudio instead.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installr.html#updates",
+    "href": "tutorials/install/installr.html#updates",
+    "title": "Install R",
+    "section": "Updates",
+    "text": "Updates\nIf you used R before and installed it for example some years ago, it is probably time for an update. R is actively developed, and new versions are released regularly with improvements, bug fixes and new features.\nTo avoid issues and make sure everything works smoothly, we recommend installing the latest version of R from the CRAN website, even if you already have an older version on your computer.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/fails.html",
+    "href": "tutorials/install/fails.html",
+    "title": "What if installation fails",
+    "section": "",
+    "text": "If the suggested steps fail, or you have insufficient rights on your machine, you can use the following web-based solutions.\n\nOpen a free account on posit.cloud. You can run your own cloud-based RStudio environment there.\nAs a student from Utrecht University, you can use Utrecht University’s MyWorkPlace. You will have access to R and RStudio there. When you start a new MyWorkPlace session, you may need to (re)install packages.\n\nNaturally, you will need internet access to use these services.\n\n\n\n Back to top",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What if installation fails"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/fails.html#r",
+    "href": "tutorials/install/fails.html#r",
+    "title": "What is R",
+    "section": "",
+    "text": "R is a programming language an software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.\nR was created in the 1990s by two statisticians, Ross Ihaka and Robert Gentleman, at the University of Auckland in New Zealand. They named it “R” after the first letters of their names and also as a nod to the programming language S, which R was based on. Over time, R has evolved with contributions from thousands of users around the world, and today it is the go-to software program for statisticians and computational social scientists worldwide. Therefore, it is essential to have in your toolkit as an applied data scientist or researcher in the field of methodology and statistics.\nYou can use R to:\n\nWork with data in tables or spreadsheets\nMake plots and graphs\nDo statistical tests and apply models\nClean, reshape and summarize data\nAutomate data tasks\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nYou can read more about R at the FAQ",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/fails.html#base-r",
+    "href": "tutorials/install/fails.html#base-r",
+    "title": "What is R",
+    "section": "Base R",
+    "text": "Base R\nR comes with a set of basic tools which you can use to do math and statistics, create simple plots, read and write files and to write your own functions and programs. This set of basic tools is referred to as “Base R”. However, there are many more tools available through so-called “packages”. These are add-ons created by other users that let you do more advanced or specialized tasks.\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nThe Base R Cheat Sheet is a useful resource for the basic commands in R.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/fails.html#cran",
+    "href": "tutorials/install/fails.html#cran",
+    "title": "What is R",
+    "section": "CRAN",
+    "text": "CRAN\nCRAN stands for the Comprehensive R Archive Network. It is the main place where R and R packages are stored and shared. You can think of CRAN as a giant online library for R:\n\nIt hosts the official version of R.\nIt contains thousands of packages developed by R users from all over the world.\nEvery package on CRAN is checked and tested, so you know that it is safe and works properly in R.\nCRAN keeps documentation and example code for each package, which is helpful when you are learning how to use them.\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nHere is the link to CRAN.\n\n\nR has a large update about once a year and minor updates 2 or 3 times per year. You can always find the latest version on the CRAN website.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html",
+    "href": "tutorials/install/installrstudio.html",
+    "title": "Install RStudio",
+    "section": "",
+    "text": "Once R is installed, the next step is to install RStudio, the user-friendly interface that helps you write, run and manage your code.\nYou can download RStudio from the official Posit website. Just like R, RStudio is available for:\n\nWindows\nMacOS\nLinux\n\nDownload the version that matches your operating system and follow the installation instructions. The setup is usually quick and you can use the default settings.\nMake sure to download the free RStudio Desktop version. The paid version for professionals is not needed.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html#r",
+    "href": "tutorials/install/installrstudio.html#r",
+    "title": "What is R",
+    "section": "",
+    "text": "R is a programming language an software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.\nR was created in the 1990s by two statisticians, Ross Ihaka and Robert Gentleman, at the University of Auckland in New Zealand. They named it “R” after the first letters of their names and also as a nod to the programming language S, which R was based on. Over time, R has evolved with contributions from thousands of users around the world, and today it is the go-to software program for statisticians and computational social scientists worldwide. Therefore, it is essential to have in your toolkit as an applied data scientist or researcher in the field of methodology and statistics.\nYou can use R to:\n\nWork with data in tables or spreadsheets\nMake plots and graphs\nDo statistical tests and apply models\nClean, reshape and summarize data\nAutomate data tasks\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nYou can read more about R at the FAQ",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html#base-r",
+    "href": "tutorials/install/installrstudio.html#base-r",
+    "title": "What is R",
+    "section": "Base R",
+    "text": "Base R\nR comes with a set of basic tools which you can use to do math and statistics, create simple plots, read and write files and to write your own functions and programs. This set of basic tools is referred to as “Base R”. However, there are many more tools available through so-called “packages”. These are add-ons created by other users that let you do more advanced or specialized tasks.\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nThe Base R Cheat Sheet is a useful resource for the basic commands in R.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html#cran",
+    "href": "tutorials/install/installrstudio.html#cran",
+    "title": "What is R",
+    "section": "CRAN",
+    "text": "CRAN\nCRAN stands for the Comprehensive R Archive Network. It is the main place where R and R packages are stored and shared. You can think of CRAN as a giant online library for R:\n\nIt hosts the official version of R.\nIt contains thousands of packages developed by R users from all over the world.\nEvery package on CRAN is checked and tested, so you know that it is safe and works properly in R.\nCRAN keeps documentation and example code for each package, which is helpful when you are learning how to use them.\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nHere is the link to CRAN.\n\n\nR has a large update about once a year and minor updates 2 or 3 times per year. You can always find the latest version on the CRAN website.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "What is R"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html#rstudio",
+    "href": "tutorials/install/installrstudio.html#rstudio",
+    "title": "Install RStudio",
+    "section": "",
+    "text": "Once R is installed, the next step is to install RStudio, the user-friendly interface that helps you write, run and manage your code.\nYou can download RStudio from the official Posit website. Just like R, RStudio is available for:\n\nWindows\nMacOS\nLinux\n\nDownload the version that matches your operating system and follow the installation instructions. The setup is usually quick and you can use the default settings.\nMake sure to download the free RStudio Desktop version. The paid version for professionals is not needed.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/install/installrstudio.html#updates",
+    "href": "tutorials/install/installrstudio.html#updates",
+    "title": "Install RStudio",
+    "section": "Updates",
+    "text": "Updates\nIf you installed RStudio a while ago, it’s a good idea to update to the latest version. RStudio regularly adds new features, improvements and bug fixes. Staying up to date helps to ensure better compatability with the newest version of R and R packages.\nTo update, simply download and install the latest version from the link above. It will safely replace your old version without deleting your files or projects.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "Install R and RStudio",
+      "Install RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/guidedtour.html",
+    "href": "tutorials/guidedtour/guidedtour.html",
+    "title": "The RStudio layout",
+    "section": "",
+    "text": "When opening RStudio, the following window will appear:\n.\nThe screen consists of three panes: the console pane, the environment pane and the output pane.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "The RStudio layout"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/guidedtour.html#opening-rstudio",
+    "href": "tutorials/guidedtour/guidedtour.html#opening-rstudio",
+    "title": "The RStudio layout",
+    "section": "",
+    "text": "When opening RStudio, the following window will appear:\n.\nThe screen consists of three panes: the console pane, the environment pane and the output pane.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "The RStudio layout"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/guidedtour.html#the-r-script",
+    "href": "tutorials/guidedtour/guidedtour.html#the-r-script",
+    "title": "The RStudio layout",
+    "section": "The R script",
+    "text": "The R script\n\n\n\nOpening an R Script\n\n\nYou can open a new R Script by clicking the green “+” sign on the top right of your screen. In an R Script, you can write and save your R code. Using an R Script instead of writing your code directly in the console has some important advantages:\n\nYou can write and organize your code step by step.\nYou can run your code in chunks or line by line.\nYou can save your work and come back to it later or share it with others.\nYou or anyone else can reproduce your analysis, which is especially important for good scientific practice.\n\nBesides R Scripts, there are other types of files that have even more advanced options, but we will come back to that at a later module!",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "The RStudio layout"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/guidedtour.html#rstudio-layout",
+    "href": "tutorials/guidedtour/guidedtour.html#rstudio-layout",
+    "title": "The RStudio layout",
+    "section": "RStudio layout",
+    "text": "RStudio layout\nNow that you have the R Script open, you see the R Studio console has four panes:\n.\n\nThe Source pane: Here you can edit and save your R Scripts or other computational documents like Quarto and R Markdown.\nThe Console pane: This is where your code runs. If you for example run a piece of code from the Source pane, you will see the result or output of that code in the Console pane.\nThe Environment pane: Here, you find all temporary R objects that you create during your R session. Here, you for example find any datasets that you have loaded and can open them for further inspection.\nThe Output pane: Here the plots, tables or HTML outputs of executed code are displayed. Here, you can also find any files saved to your disk, install packages from here or access help files.\n\n\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nA useful source is the Get Started page on Posit.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "The RStudio layout"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/guidedtour.html#the-workspace",
+    "href": "tutorials/guidedtour/guidedtour.html#the-workspace",
+    "title": "The RStudio layout",
+    "section": "The workspace",
+    "text": "The workspace\nWhen you quit R, you get asked if you want to save the workspace to an .Rdata file. If you do this and you launch RStudio again, it allows you to continue where you left. We recommend to not save your workspace to an .Rdata file. This helps a lot with reproducibility of your work on the long term and helps you to ensure that your scripts are complete and self-contained.\n.\nYou can permanently turn off this setting by going to “Tools” –&gt; “Global options” –&gt; “Save workspace to .Rdata on exit”, and change this into “Never”.\n\n\n\n\n\n\n\n\n\n\nExternal Resources\n\n\n\nA useful source is the Get Started page on Posit."
+  },
+  {
+    "objectID": "tutorials/guidedtour/help.html",
+    "href": "tutorials/guidedtour/help.html",
+    "title": "Second Topic",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html",
+    "href": "tutorials/guidedtour/settings.html",
+    "title": "Changing settings in RStudio",
+    "section": "",
+    "text": "If you’re just starting out with R and RStudio, there are a few settings you might want to change to make things easier and more comfortable. You can find most of these under Tools → Global Options in the RStudio menu.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "Changing settings in RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html#appearance",
+    "href": "tutorials/guidedtour/settings.html#appearance",
+    "title": "Changing settings in RStudio",
+    "section": "Appearance",
+    "text": "Appearance\nYou can adjust the appearance of RStudio. Two aspects are particularly useful to further investigate.\n.\nThe first one is the pane layout. Depending on the screen you are using, it might work better for you to change the layout of the four separate panes. On a large monitor, it might for example work better to have the Source and Console next to each other to allow larger pieces of code and output to be visible.\nYou can find this under Tools → Global Options → Pane Layout.\n.\nRStudio has many different themes that you can choose from to change the appearance. You can for example choose to pick a theme with a more dark more, or with more or less bright text colors. Play around with it and choose whatever is easy on the eyes for you!\nTools → Global Options → Appearance.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "Changing settings in RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html#saving-your-work-automatically",
+    "href": "tutorials/guidedtour/settings.html#saving-your-work-automatically",
+    "title": "Changing settings in RStudio",
+    "section": "Saving your work automatically",
+    "text": "Saving your work automatically\nBy turning on “Auto-save”, RStudio will automatically save your script files while you are working. This helps to avoid losing your work if you forget to click save or something else unexpectedly happens.\n.\nYou can find this under Tools → Global Options → Code → Saving. Here select “Automatically save when editor loses focus”.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "Changing settings in RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html#always-start-with-a-clean-slate",
+    "href": "tutorials/guidedtour/settings.html#always-start-with-a-clean-slate",
+    "title": "Changing settings in RStudio",
+    "section": "Always start with a clean slate",
+    "text": "Always start with a clean slate\nWhen you quit R, you get asked if you want to save the workspace to an .Rdata file. If you do this and you launch RStudio again, it allows you to continue where you left. We recommend to not save your workspace to an .Rdata file. This helps a lot with reproducibility of your work on the long term and helps you to ensure that your scripts are complete and self-contained.\n.\nYou can permanently turn off this setting by going to “Tools” –&gt; “Global options” –&gt; “Save workspace to .Rdata on exit”, and change this into “Never”."
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html#set-your-default-working-directory",
+    "href": "tutorials/guidedtour/settings.html#set-your-default-working-directory",
+    "title": "Changing settings in RStudio",
+    "section": "Set your default working directory",
+    "text": "Set your default working directory\nYou can choose the folder where RStudio should start by default. This is called your working directory. This is the folder where your files will be saved (unless you specify a different folder explicitly). By creating a separate folder specifically for your R Scripts and other related documents, you can easily find them later.\nFor example, you can create a folder called RProjects and tell RStudtio to always start here.\n.\nTo can change the default working directory, you first create a folder on your computer specifically for your R documents, with a name and location you can easily find and remember. Next, you go to Tools → Global Options → General. By clicking on the “Browse” button here, you can select the folder you just created. Now, all R Scripts or other output that is created will be automatically stored here!",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "Changing settings in RStudio"
+    ]
+  },
+  {
+    "objectID": "tutorials/guidedtour/settings.html#start-with-a-clean-slate-always",
+    "href": "tutorials/guidedtour/settings.html#start-with-a-clean-slate-always",
+    "title": "Changing settings in RStudio",
+    "section": "Start with a clean slate always",
+    "text": "Start with a clean slate always\nWhen you quit R, you get asked if you want to save the workspace to an .Rdata file. If you do this and you launch RStudio again, it allows you to continue where you left. We recommend to not save your workspace to an .Rdata file. This helps a lot with reproducibility of your work on the long term and helps you to ensure that your scripts are complete and self-contained.\n.\nYou can permanently turn off this setting by going to Tools → Global Options → Save workspace to .Rdata on exit, and change this into “Never”.",
+    "crumbs": [
+      "Open-Stat-Prog",
+      "A guided tour through RStudio",
+      "Changing settings in RStudio"
+    ]
+  }
+]
