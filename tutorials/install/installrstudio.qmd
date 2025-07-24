@@ -1,0 +1,25 @@
+---
+title: "Install RStudio"
+---
+
+## RStudio
+
+Once R is installed, the next step is to install RStudio, the user-friendly interface that helps you write, run and manage your code. 
+
+You can download RStudio from the [official Posit website](https://posit.co/download/rstudio-desktop/). Just like R, RStudio is available for: 
+
+-   Windows
+
+-   MacOS
+
+-   Linux
+
+Download the version that matches your operating system and follow the installation instructions. The setup is usually quick and you can use the default settings.
+
+Make sure to download the free RStudio Desktop version. The paid version for professionals is not needed. 
+
+## Updates
+
+If you installed RStudio a while ago, it's a good idea to update to the latest version. RStudio regularly adds new features, improvements and bug fixes. Staying up to date helps to ensure better compatability with the newest version of R and R packages. 
+
+To update, simply download and install the latest version from the link above. It will safely replace your old version without deleting your files or projects. 

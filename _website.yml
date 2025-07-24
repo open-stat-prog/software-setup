@@ -1,8 +1,8 @@
 website:
 
-  title: "OSP Module Template"
+  title: "Software setup"
 
-  site-url: "https://www.openstatprog.com/module-template/"
+  site-url: "https://www.openstatprog.com/software-setup/"
 
   page-navigation: true
 
@@ -30,21 +30,23 @@ website:
     contents:
       - href: index.qmd
         text: "Overview"
-      - section: tutorials/first_tutorial/index.qmd
-        text: "First Tutorial"
+      - section: tutorials/whatis/index.qmd
+        text: "What are R and RStudio"
         contents:
-        - href: tutorials/first_tutorial/topic1.qmd
-        - href: tutorials/first_tutorial/topic2.qmd
-        - href: tutorials/first_tutorial/topic3.qmd
-        - href: quizzes/first_tutorial/index.qmd
-          text: "Knowledge Quiz"
-      - section: tutorials/second_tutorial/index.qmd
-        text: "Second Tutorial"
+        - href: tutorials/whatis/whatisr.qmd
+        - href: tutorials/whatis/whatisrstudio.qmd
+        - href: tutorials/whatis/whatisopensource.qmd
+      - section: tutorials/install/index.qmd
+        text: "Install R and RStudio"
         contents:
-          - href: tutorials/second_tutorial/topic1.qmd
-          - href: tutorials/second_tutorial/topic2.qmd
-          - href: quizzes/second_tutorial/index.qmd
-            text: "Knowledge Quiz"
+          - href: tutorials/install/installr.qmd
+          - href: tutorials/install/installrstudio.qmd
+          - href: tutorials/install/fails.qmd
+      - section: tutorials/guidedtour/index.qmd
+        text: "A guided tour through RStudio"
+        contents:
+          - href: tutorials/guidedtour/guidedtour.qmd
+          - href: tutorials/guidedtour/settings.qmd
       - href: conclusion.qmd
 
   page-footer:

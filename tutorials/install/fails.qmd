@@ -1,0 +1,11 @@
+---
+title: "What if installation fails"
+---
+
+If the suggested steps fail, or you have insufficient rights on your machine, you can use the following web-based solutions.
+
+1.  Open a free account on [posit.cloud](https://posit.cloud/). You can run your own cloud-based RStudio environment there.
+
+2.  As a student from Utrecht University, you can use Utrecht University’s [MyWorkPlace](https://myworkplace.uu.nl/). You will have access to R and RStudio there. When you start a new MyWorkPlace session, you may need to (re)install packages.
+
+Naturally, you will need internet access to use these services.

@@ -1,0 +1,17 @@
+---
+title: "What is open source"
+---
+
+## Open Source
+
+Both R and RStudio are available to download and use completely free of charge. They are also open source, which means their code is publicly available for anyone to view, use and improve.
+
+Open source software is often built by communities of developers and researchers who work together to make the software better for everyone.
+
+While the standard versions of R and RStudio are free and open source, there are also paid versions available, especially for companies and enterprise environments. These offer extra features like advanced collaboration tools, security and technical support. For most learners, researchers and individual users, the free versions are more than enough. 
+
+## Open Science 
+
+The idea of open source software is closely connected to the principles of open science. Both aim to make knowledge and tools freely available, transparent and collaborative. In open science, researchers share data, methods and results so that others can reproduce, verify and build on their work. Open source software supports this by providing tools that anyone can inspect, use and improve, helping to make research more accessible, trustworthy and inclusive. 
+
+Using tools like R and RStudio supports not just learning data analysis, but also a broader culture of openness and collaboration in science. 

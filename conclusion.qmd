@@ -11,13 +11,19 @@ format:
 source(here::here("R", "buttons.R"))
 ```
 
-Use this page to provide some kind of brief wrap-up.
+In this module, you have learned what R and RStudio are, how to install them, and how to adjust some key settings to make your experience smoother and more comfortable.
 
-## Next Steps
+You now know:
 
-If your module feeds naturally into another, link that module through the button below as a suggestion for further study.
+-   What R and RStudio are used for
 
-- Here, we're linking to the *First Steps* module.
+-   How to install them safely and update if needed
+
+-   How to find your way around the RStudio interface
+
+-   Which settings help beginners get started with confidence
+
+You are now all set to continue with the next module. Here we take the first steps into writing R code. 
 
 ```{r}
 #| echo: false

@@ -1,0 +1,11 @@
+---
+title: "Install R and RStudio"
+---
+
+Now that you know what R and RStudio are, it is time to get them set up on your computer. In the next tutorials, we will walk you through how to install R first and RStudio next. 
+
+Don't worry if something doesn't work. We will also provide alternative options in case installation doesn't go as planned.
+
+## System requirements
+
+Before you start, make sure that you have full write access and administrator rights on your computer. Since we will explore programming and compiling in the modules on this website, you need full access to your machine. Sometimes corporate laptops limit the access for their users. Therefore, we advice to use a personal laptop where you install R and RStudio. 

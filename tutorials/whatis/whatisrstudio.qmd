@@ -1,0 +1,32 @@
+---
+title: "What is RStudio"
+---
+
+To use R, you write code. These are lines of text that tell the computer
+what to do with your data. You can run code in the R console, but most
+people use it through RStudio. RStudio is a friendly interface that
+makes coding easier.
+
+RStudio is an Integrated Development Environment (IDE) that makes coding much easier. It helps you to:
+
+-   Write, organize and run your R code mode efficiently
+
+-   View your data, code and results in one place
+
+-   Create plots, manage files and install packages
+
+-   Get useful hints as you type (like autocomplete and error messages)
+
+You still need to have R installed, because RStudio runs on top of R, it doesn't replace it. But once both are installed, RStudio becomes the main way most people work with R. 
+
+RStudio is developed by a company called Posit (formerly known as RStudio Inc.). RStudio is available for free on their website.
+
+::: {.column-margin}
+
+:::: resource
+
+The [Posit](https://posit.co/products/open-source/rstudio/?sid=1) website
+
+::::
+
+:::

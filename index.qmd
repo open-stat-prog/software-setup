@@ -1,5 +1,5 @@
 ---
-title: "Module Template"
+title: "Software setup"
 page-navigation: false
 format:
   html: 
@@ -10,33 +10,41 @@ format:
 source(here::here("R", "buttons.R"))
 ```
 
-Welcome to our template module. Every module comprises a series of topical *tutorials*, such as the three linked below.
+Welcome to the *Software setup* module. In this module, you will:
 
-1. [First Topic](/tutorials/first_tutorial/index.qmd)
-1. [Second Topic](/tutorials/second_tutorial/index.qmd)
+1. [Learn what R is](/tutorials/whatis/index.qmd)
+2. [Get step-by-step instructions for installing R and RStudio](/tutorials/install/index.qmd)
+3. [Take a guided tour of the RStudio interface](/tutorials/guidedtour/index.qmd)
 
-Each tutorial will comprise a series of interactive lessons with practice problems embedded throughout. Each tutorial
-section should be wrapped up with a knowledge quiz.
+Each tutorial will comprise a series of interactive lessons with practice problems embedded throughout. Each tutorial section should be wrapped up with a knowledge quiz.
+
+By the end, you'll be ready to start working in RStudio with confidence and begin your journey into data analysis using R.
 
 ## Learning Goals
 
 After completing this module, you will be able to:
 
-### Tutorial 1
+### Know what R and RStudio are:
 
-1. A thing you should learn from Tutorial 1.
-1. Another thing you should learn from Tutorial 1.
-1. One more thing you should learn From Tutorial 1.
+1.  Learn what R is. 
+2.  Learn what RStudio is. 
+3.  Learn what open-source software is. 
 
-### Tutorial 2
+### Install R and RStudio
 
-1. A thing you should learn from Tutorial 2.
-1. Another thing you should learn from Tutorial 2.
+1.  Learn how to install R.
+2.  Learn how to install RStudio.
+3.  Learn what to do if installing R and RStudio fails. 
+
+### Get a guided tour
+
+1.  Understand the R-studio layout 
+2.  Learn how to change settings in RStudio.
 
 Click the button below to get started with the first tutorial.
 
 ```{r}
 #| echo: false
 #| results: asis
-begin_button("/tutorials/first_tutorial/index.html")
+begin_button("/tutorials/whatis/index.html")
 ```
