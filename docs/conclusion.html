@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tutorials/guidedtour/settings.html" rel="prev">
+<link href="./quizzes/guidedtour/index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,19 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-reading.callout {
-  border-left-color: purple;
-}
-div.callout-reading.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
-  background-image: none;
-}
 div.callout-practice.callout {
   border-left-color: green;
 }
@@ -95,6 +82,19 @@ div.callout-practice.callout-style-default .callout-icon::before, div.callout-pr
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f085' !important;
+  background-image: none;
+}
+div.callout-reading.callout {
+  border-left-color: purple;
+}
+div.callout-reading.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
   background-image: none;
 }
 div.callout-resource.callout {
@@ -156,12 +156,12 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/open-stat-prog/module-template">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/open-stat-prog/software-setup">
             Source Code
             </a>
           </li>
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/open-stat-prog/module-template/issues">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/open-stat-prog/software-setup/issues">
             Report a Bug
             </a>
           </li>
@@ -220,6 +220,12 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
  <span class="menu-text">What is open source</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quizzes/whatis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knowledge Quiz</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -249,6 +255,12 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
  <span class="menu-text">What if installation fails</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quizzes/install/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knowledge Quiz</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -263,13 +275,25 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tutorials/guidedtour/guidedtour.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The RStudio layout</span></a>
+ <span class="menu-text">Opening RStudio and writing scripts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tutorials/guidedtour/panes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exploring the four panes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tutorials/guidedtour/settings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Changing settings in RStudio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quizzes/guidedtour/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knowledge Quiz</span></a>
   </div>
 </li>
       </ul>
@@ -308,14 +332,26 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
 </header>
 
 
-<p>In this module, you have learned what R and RStudio are, how to install them, and how to adjust some key settings to make your experience smoother and more comfortable.</p>
-<p>You now know:</p>
-<ul>
-<li><p>What R and RStudio are used for</p></li>
-<li><p>How to install them safely and update if needed</p></li>
-<li><p>How to find your way around the RStudio interface</p></li>
-<li><p>Which settings help beginners get started with confidence</p></li>
+<p>In this module, you learned what R and RStudio are, how to install them, and how to find your way around the RStudio interface.</p>
+<section id="r-readiness-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="r-readiness-checklist">R Readiness checklist</h2>
+<p>Before moving on, make sure you can genuinely do each of these, not just recognize them:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Open RStudio and successfully run a line of code (e.g.&nbsp;<code>2 + 2</code>)</label></li>
+<li><label><input type="checkbox">Create a new R Script, write a line of code in it, and save it</label></li>
+<li><label><input type="checkbox">Point to each of the four panes and say what it’s for</label></li>
+<li><label><input type="checkbox">Change at least one RStudio setting (e.g.&nbsp;theme, auto-save, or working directory)</label></li>
 </ul>
+</section>
+<section id="hand-in-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="hand-in-assignment">Hand-in assignment</h2>
+<p>Depending on your course, your instructor may ask you to submit evidence that you’ve completed this checklist. If so, prepare the following:</p>
+<ol type="1">
+<li>A screenshot of RStudio showing an R Script open in the Source pane with at least one line of code, and the result of running that line visible in the Console pane.</li>
+<li>One sentence: if you had just loaded a dataset, which pane would you check to preview it, and why?</li>
+<li>A short note on which setting you changed, and why it’s useful to you.</li>
+</ol>
+<p>This isn’t about getting a “correct” answer, it’s proof that your setup works and that you can navigate it, which is everything you need for the next module.</p>
 <p>You are now all set to continue with the next module. Here we take the first steps into writing R code.</p>
 <div class="cell" data-layout-align="center">
 <section id="buttons">
@@ -324,6 +360,7 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
 </div>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -727,8 +764,8 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./tutorials/guidedtour/settings.html" class="pagination-link" aria-label="Changing settings in RStudio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Changing settings in RStudio</span>
+      <a href="./quizzes/guidedtour/index.html" class="pagination-link" aria-label="Knowledge Quiz">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Knowledge Quiz</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

@@ -1,0 +1,27 @@
+Question
+========
+You loaded a dataset in your script and want to quickly check what columns it has. Which pane lets you do this?
+
+Answerlist
+----------
+* The Environment pane
+* The Source pane
+* The Output pane
+* The Console pane, since output only ever appears there
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: the Environment pane lists the objects in your current session, including loaded datasets, and lets you click to preview them.
+* Wrong: the Source pane only holds your script text, not the data itself.
+* Wrong: the Output pane is for plots, tables, files, and help, not for browsing loaded objects.
+* Wrong: the Console only shows what you explicitly print there, it doesn't browse objects for you.
+
+Meta-information
+================
+exname: Environment Pane Use
+extype: schoice
+exsolution: 1000
+exshuffle: 4

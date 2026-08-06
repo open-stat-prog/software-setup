@@ -1,0 +1,27 @@
+---
+title: "Knowledge Quiz: Install R and RStudio"
+---
+
+::: {.column-margin}
+
+:::: {.callout-note}
+- Click the check-mark button to check your answer.
+- Click the question-mark button to see an explanation of the solution.
+::::
+
+:::
+
+```{r quiz2}
+#| echo: FALSE
+#| results: "asis"
+
+exams2forms::exams2forms(
+  file = list(
+    "cran.Rmd",
+    "why_update.Rmd",
+    "no_admin.Rmd",
+    "r_vs_rstudio_install.Rmd"
+  ),
+  edir = here::here("quizzes", "install", "questions")
+)
+```

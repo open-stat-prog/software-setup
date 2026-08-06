@@ -1,0 +1,29 @@
+Question
+========
+What is CRAN?
+
+Answerlist
+----------
+* The official archive where R itself and R packages are stored, tested and distributed.
+* A programming language that R is based on.
+* A company that develops RStudio.
+* A specific package for statistical analysis in R.
+
+Solution
+========
+CRAN (the Comprehensive R Archive Network) is the official archive that hosts R and R packages,
+and it tests packages before publishing them.
+
+Answerlist
+----------
+* Correct
+* Wrong: R was based on the language S, not on CRAN.
+* Wrong: RStudio is developed by Posit, not by CRAN.
+* Wrong: CRAN is an archive that hosts many packages; it isn't a package itself.
+
+Meta-information
+================
+exname: What is CRAN
+extype: schoice
+exsolution: 1000
+exshuffle: 4

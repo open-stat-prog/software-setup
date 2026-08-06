@@ -1,0 +1,27 @@
+Question
+========
+Which statement about installing R and RStudio is correct?
+
+Answerlist
+----------
+* Install R before RStudio, and use the free RStudio Desktop version
+* Install RStudio before R, and buy the paid professional version
+* R and RStudio come from the same download, you only need to install one
+* Installing RStudio removes the need to separately install R
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: RStudio needs R installed first to run code, and RStudio Desktop (free) is all you need for this module.
+* Wrong: R must be installed before RStudio can run any code, and the paid version isn't needed here.
+* Wrong: R and RStudio are separate downloads from separate websites.
+* Wrong: RStudio is only the interface, R still has to be installed separately.
+
+Meta-information
+================
+exname: R and RStudio Install Order
+extype: schoice
+exsolution: 1000
+exshuffle: 4

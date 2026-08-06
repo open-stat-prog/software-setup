@@ -1,0 +1,27 @@
+Question
+========
+You're trying to install R and RStudio on a laptop where you don't have administrator rights, and the installers keep failing. What should you do?
+
+Answerlist
+----------
+* Use a cloud-based option such as posit.cloud (or MyWorkPlace, if eligible) instead of installing locally
+* Keep retrying the local installer until it eventually works
+* Install RStudio only, and skip installing R
+* Ask someone to install a version of R that doesn't require administrator rights
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: cloud-based options run R and RStudio in the browser, so no local admin rights are needed.
+* Wrong: without admin rights, retrying the same installer won't change the outcome.
+* Wrong: RStudio alone can't run R code, it needs R installed to function.
+* Wrong: there's no admin-rights-free version of the local installer, this is exactly what the cloud options solve.
+
+Meta-information
+================
+exname: No Admin Rights Fallback
+extype: schoice
+exsolution: 1000
+exshuffle: 4

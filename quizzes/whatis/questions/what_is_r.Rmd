@@ -1,0 +1,28 @@
+Question
+========
+What is R, most accurately described?
+
+Answerlist
+----------
+* A programming language and software environment for working with data, where you write commands instead of clicking through menus.
+* A type of spreadsheet program, similar to Excel, but free of charge.
+* A user interface (IDE) that makes it easier to write code.
+* A single R package used for making plots.
+
+Solution
+========
+R is a programming language and software environment for working with data.
+
+Answerlist
+----------
+* Correct
+* Wrong: R is not spreadsheet software like Excel; you interact with it by writing code.
+* Wrong: That description matches RStudio, not R itself.
+* Wrong: Making plots is one thing you can do in R, but R itself is much broader than a single package.
+
+Meta-information
+================
+exname: What is R
+extype: schoice
+exsolution: 1000
+exshuffle: 4

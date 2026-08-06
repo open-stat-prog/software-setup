@@ -21,6 +21,35 @@ You still need to have R installed, because RStudio runs on top of R, it doesn't
 
 RStudio is developed by a company called Posit (formerly known as RStudio Inc.). RStudio is available for free on their website.
 
+::: {.callout-important}
+## R is the engine, RStudio is the dashboard
+- **R** is the engine. It's the software that actually runs your code and does the computing. It can technically run entirely on its own, with no RStudio in sight.
+- **RStudio** is the dashboard. It's the interface around R that makes writing, organizing, and running R code far more comfortable, but it doesn't compute anything by itself.
+
+You need both, but they aren't the same program, and only one of them is doing the calculating.
+:::
+
+::: practice
+
+## Quick Check
+
+:::: {.panel-tabset}
+
+## {{< var tab_title.question >}}
+
+You write some R code in RStudio and press "Run". Which program is actually executing the code
+and computing the result: R, or RStudio?
+
+## {{< var tab_title.solution >}}
+
+R is. RStudio is the dashboard you're typing in and looking at, but it sends your code to R, which
+is what actually executes it and computes the result. If R weren't installed, RStudio would have
+nothing to send your code to.
+
+::::
+
+:::
+
 ::: {.column-margin}
 
 :::: resource

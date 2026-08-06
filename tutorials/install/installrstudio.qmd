@@ -23,3 +23,21 @@ Make sure to download the free RStudio Desktop version. The paid version for pro
 If you installed RStudio a while ago, it's a good idea to update to the latest version. RStudio regularly adds new features, improvements and bug fixes. Staying up to date helps to ensure better compatability with the newest version of R and R packages. 
 
 To update, simply download and install the latest version from the link above. It will safely replace your old version without deleting your files or projects. 
+
+::: practice
+
+## Quick Check
+
+:::: {.panel-tabset}
+
+## {{< var tab_title.question >}}
+
+Imagine you installed RStudio Desktop but skipped installing R. When you open RStudio and try to run some code, will it work? Why or why not?
+
+## {{< var tab_title.solution >}}
+
+No. RStudio is the dashboard. It gives you a user-friendly interface for writing and managing code, but R is the engine that actually runs it. RStudio needs R installed on your machine to function; installing RStudio by itself does not give you R.
+
+::::
+
+:::

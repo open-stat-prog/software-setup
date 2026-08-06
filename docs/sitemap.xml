@@ -146,27 +146,27 @@
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/guidedtour/settings.html</loc>
-    <lastmod>2025-07-24T14:46:18.119Z</lastmod>
+    <lastmod>2026-08-06T10:56:24.085Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/index.html</loc>
-    <lastmod>2025-07-24T14:27:22.184Z</lastmod>
+    <lastmod>2026-08-05T13:12:49.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/whatis/index.html</loc>
-    <lastmod>2025-07-23T15:53:37.749Z</lastmod>
+    <lastmod>2026-08-05T14:03:29.518Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/whatis/whatisr.html</loc>
-    <lastmod>2025-07-23T17:30:07.751Z</lastmod>
+    <lastmod>2026-08-06T07:55:38.880Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/whatis/whatisrstudio.html</loc>
-    <lastmod>2025-07-23T16:59:17.692Z</lastmod>
+    <lastmod>2026-08-06T08:07:50.456Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/whatis/whatisopensource.html</loc>
-    <lastmod>2025-07-23T17:36:57.591Z</lastmod>
+    <lastmod>2026-08-06T08:09:50.438Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/install/index.html</loc>
@@ -174,15 +174,15 @@
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/install/installr.html</loc>
-    <lastmod>2025-07-24T06:51:55.982Z</lastmod>
+    <lastmod>2026-08-06T08:47:10.125Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/install/installrstudio.html</loc>
-    <lastmod>2025-07-24T07:13:36.953Z</lastmod>
+    <lastmod>2026-08-06T08:48:19.383Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/install/fails.html</loc>
-    <lastmod>2025-07-24T10:38:15.666Z</lastmod>
+    <lastmod>2026-08-06T08:50:37.902Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/guidedtour/index.html</loc>
@@ -190,10 +190,78 @@
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/tutorials/guidedtour/guidedtour.html</loc>
-    <lastmod>2025-07-24T14:18:07.409Z</lastmod>
+    <lastmod>2026-08-06T10:29:41.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/conclusion.html</loc>
-    <lastmod>2025-07-24T15:12:17.217Z</lastmod>
+    <lastmod>2026-08-06T10:59:13.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/what_is_cran.html</loc>
+    <lastmod>2026-08-05T13:12:26.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/why_it_matters.html</loc>
+    <lastmod>2026-08-05T13:12:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/open_source.html</loc>
+    <lastmod>2026-08-05T13:12:31.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/index.html</loc>
+    <lastmod>2026-08-05T13:12:12.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/what_is_r.html</loc>
+    <lastmod>2026-08-05T13:12:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/r_vs_rstudio.html</loc>
+    <lastmod>2026-08-06T08:15:10.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/install/questions/why_update.html</loc>
+    <lastmod>2026-08-06T08:27:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/install/questions/no_admin.html</loc>
+    <lastmod>2026-08-06T08:27:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/install/index.html</loc>
+    <lastmod>2026-08-06T08:27:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/install/questions/cran.html</loc>
+    <lastmod>2026-08-06T08:27:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/install/questions/r_vs_rstudio_install.html</loc>
+    <lastmod>2026-08-06T08:27:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/guidedtour/questions/clean_slate.html</loc>
+    <lastmod>2026-08-06T10:29:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/guidedtour/questions/working_directory.html</loc>
+    <lastmod>2026-08-06T10:29:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/guidedtour/index.html</loc>
+    <lastmod>2026-08-06T10:29:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/tutorials/guidedtour/panes.html</loc>
+    <lastmod>2026-08-06T10:29:41.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/guidedtour/questions/environment_pane.html</loc>
+    <lastmod>2026-08-06T10:29:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/quizzes/guidedtour/questions/panes.html</loc>
+    <lastmod>2026-08-06T10:29:42.000Z</lastmod>
   </url>
 </urlset>

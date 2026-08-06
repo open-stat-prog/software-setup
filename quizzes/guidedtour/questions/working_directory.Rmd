@@ -1,0 +1,27 @@
+Question
+========
+What is the main benefit of setting a dedicated default working directory in RStudio?
+
+Answerlist
+----------
+* You and your code always know where files will be saved to and loaded from
+* It makes your R code run faster
+* It's required for RStudio to open R Scripts
+* It automatically organizes your code into functions
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: a consistent, predictable folder avoids confusion about where files were saved or which version of a dataset got loaded.
+* Wrong: working directory location has no effect on execution speed.
+* Wrong: RStudio can open scripts regardless of your working directory setting.
+* Wrong: working directory is about file location, not code structure.
+
+Meta-information
+================
+exname: Working Directory Purpose
+extype: schoice
+exsolution: 1000
+exshuffle: 4

@@ -1,0 +1,27 @@
+Question
+========
+You already have R installed from a couple of years ago, and it still runs your old scripts without errors. Why does it still make sense to update to the latest version?
+
+Answerlist
+----------
+* Newer R versions fix bugs and are often required for current R packages to install and work correctly
+* Old R versions eventually stop being able to open script files at all
+* Updating R is a required step before RStudio will open
+* There's no real benefit, it's just a suggestion
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: even if your own old scripts still run, many packages you'll need later are only tested against recent R versions.
+* Wrong: R script files (.R) don't expire or become unreadable.
+* Wrong: RStudio doesn't check your R version before opening.
+* Wrong: package compatibility is a real, practical reason to stay current.
+
+Meta-information
+================
+exname: Why Update R
+extype: schoice
+exsolution: 1000
+exshuffle: 4

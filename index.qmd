@@ -24,11 +24,13 @@ By the end, you'll be ready to start working in RStudio with confidence and begi
 
 After completing this module, you will be able to:
 
-### Know what R and RStudio are:
+### Know what R and RStudio are: {#know-what-r-and-rstudio-are}
 
-1.  Learn what R is. 
-2.  Learn what RStudio is. 
-3.  Learn what open-source software is. 
+<!-- Reworded to measurable, Bloom-explicit outcomes (Understand level), per expert review. -->
+
+1.  Describe what R is.
+2.  Describe what RStudio is, and explain how it relates to R.
+3.  Describe what open-source software is.
 
 ### Install R and RStudio
 

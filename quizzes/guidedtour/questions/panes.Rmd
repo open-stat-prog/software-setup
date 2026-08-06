@@ -1,0 +1,27 @@
+Question
+========
+Which pane in RStudio shows the plots, tables, or HTML output produced by your code?
+
+Answerlist
+----------
+* The Output pane
+* The Source pane
+* The Console pane
+* The Environment pane
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: plots, tables, and HTML output, along with files, packages, and help, all appear in the Output pane.
+* Wrong: the Source pane is where you write and save your scripts, not where output appears.
+* Wrong: the Console pane shows the results of running code (like printed values), not plots or tables.
+* Wrong: the Environment pane lists the objects in your session, not visual output.
+
+Meta-information
+================
+exname: Identifying the Output Pane
+extype: schoice
+exsolution: 1000
+exshuffle: 4

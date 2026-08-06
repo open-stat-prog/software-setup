@@ -1,0 +1,27 @@
+Question
+========
+What is CRAN?
+
+Answerlist
+----------
+* The official archive network where you download R
+* A paid subscription service bundled with RStudio
+* A programming language similar to R
+* A project management tool built into RStudio
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: CRAN (Comprehensive R Archive Network) is the official source for downloading R.
+* Wrong: R and CRAN are both free.
+* Wrong: CRAN is not a language, it's a distribution website for R.
+* Wrong: CRAN is unrelated to RStudio's project features.
+
+Meta-information
+================
+exname: What is CRAN
+extype: schoice
+exsolution: 1000
+exshuffle: 4

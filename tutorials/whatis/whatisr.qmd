@@ -33,6 +33,19 @@ You can use R to:
 
 -   Automate data tasks
 
+::: {.callout-tip}
+## Try it yourself
+This is what "R computes" actually looks like. Click "Run Code" below.
+:::
+
+```{webr-r}
+2 + 2
+```
+
+Try editing the line above, for example, replace it with `mean(c(2, 4, 6, 8))` and run it again.
+This is exactly the kind of instruction you'll be giving R once it's installed on your own
+computer; here, you get to try it before installing anything.
+
 ::: {.column-margin}
 
 :::: resource

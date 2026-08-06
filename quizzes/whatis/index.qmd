@@ -1,0 +1,28 @@
+---
+title: "Knowledge Quiz: What are R and RStudio"
+---
+
+::: {.column-margin}
+
+:::: {.callout-note}
+- Click the check-mark button to check your answer.
+- Click the question-mark button to see an explanation of the solution.
+::::
+
+:::
+
+```{r quiz-whatis}
+#| echo: FALSE
+#| results: "asis"
+
+exams2forms::exams2forms(
+  file = list(
+    "what_is_r.Rmd",
+    "r_vs_rstudio.Rmd",
+    "what_is_cran.Rmd",
+    "open_source.Rmd",
+    "why_it_matters.Rmd"
+  ),
+  edir = here::here("quizzes", "whatis", "questions")
+)
+```

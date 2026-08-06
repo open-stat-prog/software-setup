@@ -1,0 +1,27 @@
+Question
+========
+Why is it recommended to set "Save workspace to .Rdata on exit" to "Never"?
+
+Answerlist
+----------
+* It forces your script to be self-contained, so it doesn't secretly depend on leftover objects from a previous session
+* It makes RStudio start up faster, which is the only benefit
+* It's required, otherwise RStudio refuses to close
+* It automatically backs up your script files
+
+Solution
+========
+
+Answerlist
+----------
+* Correct: starting with a clean environment each time means your script has to (re)create everything it needs, which is what makes it reproducible.
+* Wrong: startup speed isn't the reason this is recommended.
+* Wrong: RStudio closes fine either way, this setting only affects what happens to your objects.
+* Wrong: this setting is about R objects in memory, not about saving your script files.
+
+Meta-information
+================
+exname: Why Skip Saving Rdata
+extype: schoice
+exsolution: 1000
+exshuffle: 4

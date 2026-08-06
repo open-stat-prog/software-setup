@@ -1,0 +1,30 @@
+Question
+========
+You've written some R code and you press "Run" inside RStudio. Which program actually executes
+the code and computes the result?
+
+Answerlist
+----------
+* R.
+* RStudio.
+* Both, equally, with no real difference.
+* Neither; the code runs on Posit's servers.
+
+Solution
+========
+R is the engine that actually executes code and computes results. RStudio is the interface (the
+"dashboard") that you type in and that sends your code to R.
+
+Answerlist
+----------
+* Correct
+* Wrong: RStudio is the interface around R; it sends your code to R to be executed.
+* Wrong: RStudio itself does not compute anything, it needs R to do that.
+* Wrong: RStudio Desktop runs locally on your own machine using your local installation of R.
+
+Meta-information
+================
+exname: R vs RStudio Relationship
+extype: schoice
+exsolution: 1000
+exshuffle: 4

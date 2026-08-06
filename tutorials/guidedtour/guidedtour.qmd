@@ -1,5 +1,5 @@
 ---
-title: "The RStudio layout"
+title: "Opening RStudio and writing scripts"
 ---
 
 ## Opening RStudio
@@ -25,27 +25,3 @@ You can open a new R Script by clicking the green "+" sign on the top right of y
 -   You or anyone else can reproduce your analysis, which is especially important for good scientific practice. 
 
 Besides R Scripts, there are other types of files that have even more advanced options, but we will come back to that at a later module! 
-
-## RStudio layout 
-
-Now that you have the R Script open, you see the R Studio console has four panes: 
-
-![Four panes in RStudio](/assets/images/rstudio_4.png). 
-
-1.    **The Source pane**: Here you can edit and save your R Scripts or other computational documents like Quarto and R Markdown.
-
-2.    **The Console pane:** This is where your code runs. If you for example run a piece of code from the Source pane, you will see the result or output of that code in the Console pane. 
-
-3.    **The Environment pane:** Here, you find all temporary R objects that you create during your R session. Here, you for example find any datasets that you have loaded and can open them for further inspection. 
-
-4.    **The Output pane:** Here the plots, tables or HTML outputs of executed code are displayed. Here, you can also find any files saved to your disk, install packages from here or access help files. 
-
-::: {.column-margin}
-
-:::: resource
-
-A useful source is [the Get Started page](https://docs.posit.co/ide/user/ide/get-started/) on Posit.
-
-::::
-
-:::

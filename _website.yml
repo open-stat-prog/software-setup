@@ -36,17 +36,24 @@ website:
         - href: tutorials/whatis/whatisr.qmd
         - href: tutorials/whatis/whatisrstudio.qmd
         - href: tutorials/whatis/whatisopensource.qmd
+        - href: quizzes/whatis/index.qmd
+          text: "Knowledge Quiz"
       - section: tutorials/install/index.qmd
         text: "Install R and RStudio"
         contents:
           - href: tutorials/install/installr.qmd
           - href: tutorials/install/installrstudio.qmd
           - href: tutorials/install/fails.qmd
+          - href: quizzes/install/index.qmd
+            text: "Knowledge Quiz"
       - section: tutorials/guidedtour/index.qmd
         text: "A guided tour through RStudio"
         contents:
           - href: tutorials/guidedtour/guidedtour.qmd
+          - href: tutorials/guidedtour/panes.qmd
           - href: tutorials/guidedtour/settings.qmd
+          - href: quizzes/guidedtour/index.qmd
+            text: "Knowledge Quiz"
       - href: conclusion.qmd
 
   page-footer:

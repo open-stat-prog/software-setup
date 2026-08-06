@@ -1,0 +1,55 @@
+---
+title: "Exploring the four panes"
+---
+
+Now that you have an R Script open, you'll see that the RStudio window is divided into four panes. Click through each tab below to explore what it does.
+
+![Four panes in RStudio](/assets/images/rstudio_4.png)
+
+::: {.panel-tabset}
+
+## 1. Source
+
+This is where you edit and save your R Scripts or other computational documents like Quarto and R Markdown. Anything you write here isn't run automatically — you choose when to send it to the Console.
+
+## 2. Console
+
+This is where your code actually runs. If you run a piece of code from the Source pane, the result or output of that code appears here.
+
+## 3. Environment
+
+Here you find all the temporary R objects you create during your R session — for example, any datasets you've loaded, which you can open here for further inspection.
+
+## 4. Output
+
+Here you find plots, tables, or HTML outputs of executed code. You can also browse files saved to your disk, install packages, or access help files from this pane.
+
+:::
+
+::: {.column-margin}
+
+:::: resource
+
+A useful source is [the Get Started page](https://docs.posit.co/ide/user/ide/get-started/) on Posit.
+
+::::
+
+:::
+
+::: practice
+
+## Quick Check
+
+:::: {.panel-tabset}
+
+## {{< var tab_title.question >}}
+
+You've just written and run `data <- read.csv("mydata.csv")` in your R Script. Which pane would you look in to preview the contents of `data`?
+
+## {{< var tab_title.solution >}}
+
+The **Environment pane**. This is where R keeps track of the objects (like `data`) that currently exist in your session, and lets you click to preview them. The Console pane would only show you output if you had explicitly printed `data` there.
+
+::::
+
+:::

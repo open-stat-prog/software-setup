@@ -9,3 +9,29 @@ If the suggested steps fail, or you have insufficient rights on your machine, yo
 2.  As a student from Utrecht University, you can use Utrecht University’s [MyWorkPlace](https://myworkplace.uu.nl/). You will have access to R and RStudio there. When you start a new MyWorkPlace session, you may need to (re)install packages.
 
 Naturally, you will need internet access to use these services.
+
+::: practice
+
+## Decide the Right Fallback
+
+:::: {.panel-tabset}
+
+## {{< var tab_title.question >}}
+
+Two students run into trouble installing R and RStudio:
+
+- **Student A** is on a personal laptop with a stable internet connection, but the installer keeps failing because they don't have administrator rights on the machine.
+- **Student B** is at a remote field station with no internet access at all, and the local installation also isn't working.
+
+For each student, which fallback option from this page (if any) will actually solve their problem?
+
+## {{< var tab_title.solution >}}
+
+- **Student A**: Either fallback works, [posit.cloud](https://posit.cloud/) or (if eligible) Utrecht University's [MyWorkPlace](https://myworkplace.uu.nl/). Both run R and RStudio in the cloud, so no local admin rights are needed at all.
+- **Student B**: Neither fallback works. Both posit.cloud and MyWorkPlace are *web-based* solutions, so they still require internet access to reach. 
+
+Missing admin rights and missing internet access are different problems, only one of them has a workaround here.
+
+::::
+
+:::

@@ -1,0 +1,29 @@
+Question
+========
+What does it mean that R and RStudio are "open source"?
+
+Answerlist
+----------
+* Their underlying code is publicly available for anyone to view, use and improve.
+* They are only available to university staff and students.
+* They cannot be updated once released.
+* They are exclusively developed by a single company with no outside contributions.
+
+Solution
+========
+Open source means the source code is publicly available, and communities of developers and
+researchers can inspect, use, and improve it.
+
+Answerlist
+----------
+* Correct
+* Wrong: Both are free and publicly available to anyone, not restricted to specific institutions.
+* Wrong: Both R and RStudio are actively and regularly updated.
+* Wrong: Open-source software is typically developed collaboratively by a community, not a single closed company.
+
+Meta-information
+================
+exname: What is Open Source
+extype: schoice
+exsolution: 1000
+exshuffle: 4

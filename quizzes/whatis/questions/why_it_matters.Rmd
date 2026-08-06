@@ -1,0 +1,31 @@
+Question
+========
+An AI assistant can write R code for you. Given that, why does it still matter that you
+understand what R and RStudio each do?
+
+Answerlist
+----------
+* Because you still need a working installation to run any code, and you're the one who has to recognize and fix problems when the setup breaks.
+* It doesn't matter anymore; once AI can write code, installation and setup knowledge is obsolete.
+* Because AI assistants cannot generate R code unless RStudio is installed first.
+* Because open-source software requires you to personally rewrite its source code before use.
+
+Solution
+========
+AI tools can generate code, but they don't install software, manage your files, or debug a broken
+local setup for you. You still need a working R/RStudio installation, and you need to be able to
+tell which part of the system (R, RStudio, or a package) is causing a problem.
+
+Answerlist
+----------
+* Correct
+* Wrong: someone (or something) still needs a working R/RStudio setup to actually run code, and problems still need to be diagnosed by a person.
+* Wrong: AI assistants can write R code regardless of whether RStudio is installed; RStudio is a convenience for you, not a requirement for code generation.
+* Wrong: open source means the code is available to inspect and modify if you want to, not that you are required to rewrite it.
+
+Meta-information
+================
+exname: Why Installation Knowledge Still Matters
+extype: schoice
+exsolution: 1000
+exshuffle: 4
