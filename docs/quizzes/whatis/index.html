@@ -72,19 +72,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-reading.callout {
-  border-left-color: purple;
-}
-div.callout-reading.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
-  background-image: none;
-}
 div.callout-practice.callout {
   border-left-color: green;
 }
@@ -96,6 +83,19 @@ div.callout-practice.callout-style-default .callout-icon::before, div.callout-pr
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f085' !important;
+  background-image: none;
+}
+div.callout-reading.callout {
+  border-left-color: purple;
+}
+div.callout-reading.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
   background-image: none;
 }
 div.callout-reading-advanced.callout {
@@ -276,13 +276,25 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tutorials/guidedtour/guidedtour.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The RStudio layout</span></a>
+ <span class="menu-text">Opening RStudio and writing scripts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/guidedtour/panes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exploring the four panes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tutorials/guidedtour/settings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Changing settings in RStudio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../quizzes/guidedtour/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knowledge Quiz</span></a>
   </div>
 </li>
       </ul>
@@ -345,8 +357,8 @@ Note
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is R, most accurately described?</p>
-<div id="webex-7a34d70e516ca86826843be68a1725c2" class="webex-radiogroup" data-answer="bFEfBUgHHFVo">
-<label><input type="radio" autocomplete="off" name="7a34d70e516ca86826843be68a1725c2"><span>A single R package used for making plots.</span></label><label><input type="radio" autocomplete="off" name="7a34d70e516ca86826843be68a1725c2"><span>A programming language and software environment for working with data, where you write commands instead of clicking through menus.</span></label><label><input type="radio" autocomplete="off" name="7a34d70e516ca86826843be68a1725c2"><span>A user interface (IDE) that makes it easier to write code.</span></label><label><input type="radio" autocomplete="off" name="7a34d70e516ca86826843be68a1725c2"><span>A type of spreadsheet program, similar to Excel, but free of charge.</span></label>
+<div id="webex-035b0050f45961d089a7a24aa8d4ac5f" class="webex-radiogroup" data-answer="awMZUxwAGQA7">
+<label><input type="radio" autocomplete="off" name="035b0050f45961d089a7a24aa8d4ac5f"><span>A single R package used for making plots.</span></label><label><input type="radio" autocomplete="off" name="035b0050f45961d089a7a24aa8d4ac5f"><span>A programming language and software environment for working with data, where you write commands instead of clicking through menus.</span></label><label><input type="radio" autocomplete="off" name="035b0050f45961d089a7a24aa8d4ac5f"><span>A type of spreadsheet program, similar to Excel, but free of charge.</span></label><label><input type="radio" autocomplete="off" name="035b0050f45961d089a7a24aa8d4ac5f"><span>A user interface (IDE) that makes it easier to write code.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -354,16 +366,16 @@ Note
 <ul>
 <li>Wrong: Making plots is one thing you can do in R, but R itself is much broader than a single package.</li>
 <li>Correct</li>
-<li>Wrong: That description matches RStudio, not R itself.</li>
 <li>Wrong: R is not spreadsheet software like Excel; you interact with it by writing code.</li>
+<li>Wrong: That description matches RStudio, not R itself.</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>You’ve written some R code and you press “Run” inside RStudio. Which program actually executes the code and computes the result?</p>
-<div id="webex-c1e0c36f3229b218f6a80cbb2b87e4eb" class="webex-radiogroup" data-answer="OAFJAU8DGlZu">
-<label><input type="radio" autocomplete="off" name="c1e0c36f3229b218f6a80cbb2b87e4eb"><span>Neither; the code runs on Posit’s servers.</span></label><label><input type="radio" autocomplete="off" name="c1e0c36f3229b218f6a80cbb2b87e4eb"><span>R.</span></label><label><input type="radio" autocomplete="off" name="c1e0c36f3229b218f6a80cbb2b87e4eb"><span>Both, equally, with no real difference.</span></label><label><input type="radio" autocomplete="off" name="c1e0c36f3229b218f6a80cbb2b87e4eb"><span>RStudio.</span></label>
+<div id="webex-cbd5a8959a6d2129fff34897457a0635" class="webex-radiogroup" data-answer="OFJIBE0IFQVk">
+<label><input type="radio" autocomplete="off" name="cbd5a8959a6d2129fff34897457a0635"><span>Neither; the code runs on Posit’s servers.</span></label><label><input type="radio" autocomplete="off" name="cbd5a8959a6d2129fff34897457a0635"><span>R.</span></label><label><input type="radio" autocomplete="off" name="cbd5a8959a6d2129fff34897457a0635"><span>RStudio.</span></label><label><input type="radio" autocomplete="off" name="cbd5a8959a6d2129fff34897457a0635"><span>Both, equally, with no real difference.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -371,50 +383,50 @@ Note
 <ul>
 <li>Wrong: RStudio Desktop runs locally on your own machine using your local installation of R.</li>
 <li>Correct</li>
-<li>Wrong: RStudio itself does not compute anything — it needs R to do that.</li>
 <li>Wrong: RStudio is the interface around R; it sends your code to R to be executed.</li>
+<li>Wrong: RStudio itself does not compute anything, it needs R to do that.</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is CRAN?</p>
-<div id="webex-fc1ed234eaa6b9df99e8cf5590498809" class="webex-radiogroup" data-answer="PVMdVUgCHwU4">
-<label><input type="radio" autocomplete="off" name="fc1ed234eaa6b9df99e8cf5590498809"><span>A specific package for statistical analysis in R.</span></label><label><input type="radio" autocomplete="off" name="fc1ed234eaa6b9df99e8cf5590498809"><span>A company that develops RStudio.</span></label><label><input type="radio" autocomplete="off" name="fc1ed234eaa6b9df99e8cf5590498809"><span>A programming language that R is based on.</span></label><label><input type="radio" autocomplete="off" name="fc1ed234eaa6b9df99e8cf5590498809"><span>The official archive where R itself and R packages are stored, tested and distributed.</span></label>
+<div id="webex-d44eb4b731421ea71fd5c6be874226d5" class="webex-radiogroup" data-answer="PwQYVE4ETgdu">
+<label><input type="radio" autocomplete="off" name="d44eb4b731421ea71fd5c6be874226d5"><span>A company that develops RStudio.</span></label><label><input type="radio" autocomplete="off" name="d44eb4b731421ea71fd5c6be874226d5"><span>The official archive where R itself and R packages are stored, tested and distributed.</span></label><label><input type="radio" autocomplete="off" name="d44eb4b731421ea71fd5c6be874226d5"><span>A programming language that R is based on.</span></label><label><input type="radio" autocomplete="off" name="d44eb4b731421ea71fd5c6be874226d5"><span>A specific package for statistical analysis in R.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>CRAN (the Comprehensive R Archive Network) is the official archive that hosts R and R packages, and it tests packages before publishing them.</p>
 <ul>
-<li>Wrong: CRAN is an archive that hosts many packages; it isn’t a package itself.</li>
 <li>Wrong: RStudio is developed by Posit, not by CRAN.</li>
-<li>Wrong: R was based on the language S, not on CRAN.</li>
 <li>Correct</li>
+<li>Wrong: R was based on the language S, not on CRAN.</li>
+<li>Wrong: CRAN is an archive that hosts many packages; it isn’t a package itself.</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What does it mean that R and RStudio are “open source”?</p>
-<div id="webex-f554a52c33ee418837b3344eb5c7617e" class="webex-radiogroup" data-answer="PQQZBE0FHlNu">
-<label><input type="radio" autocomplete="off" name="f554a52c33ee418837b3344eb5c7617e"><span>Their underlying code is publicly available for anyone to view, use and improve.</span></label><label><input type="radio" autocomplete="off" name="f554a52c33ee418837b3344eb5c7617e"><span>They cannot be updated once released.</span></label><label><input type="radio" autocomplete="off" name="f554a52c33ee418837b3344eb5c7617e"><span>They are exclusively developed by a single company with no outside contributions.</span></label><label><input type="radio" autocomplete="off" name="f554a52c33ee418837b3344eb5c7617e"><span>They are only available to university staff and students.</span></label>
+<div id="webex-8d0185ca20dc3c9fe69273d080e58ee9" class="webex-radiogroup" data-answer="Y1QcARQET1Fv">
+<label><input type="radio" autocomplete="off" name="8d0185ca20dc3c9fe69273d080e58ee9"><span>They cannot be updated once released.</span></label><label><input type="radio" autocomplete="off" name="8d0185ca20dc3c9fe69273d080e58ee9"><span>They are only available to university staff and students.</span></label><label><input type="radio" autocomplete="off" name="8d0185ca20dc3c9fe69273d080e58ee9"><span>Their underlying code is publicly available for anyone to view, use and improve.</span></label><label><input type="radio" autocomplete="off" name="8d0185ca20dc3c9fe69273d080e58ee9"><span>They are exclusively developed by a single company with no outside contributions.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Open source means the source code is publicly available, and communities of developers and researchers can inspect, use, and improve it.</p>
 <ul>
-<li>Correct</li>
 <li>Wrong: Both R and RStudio are actively and regularly updated.</li>
-<li>Wrong: Open-source software is typically developed collaboratively by a community, not a single closed company.</li>
 <li>Wrong: Both are free and publicly available to anyone, not restricted to specific institutions.</li>
+<li>Correct</li>
+<li>Wrong: Open-source software is typically developed collaboratively by a community, not a single closed company.</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>An AI assistant can write R code for you. Given that, why does it still matter that you understand what R and RStudio each do?</p>
-<div id="webex-8493e8453bc320b25438039b158d80ba" class="webex-radiogroup" data-answer="YwUVA0kIGAVu">
-<label><input type="radio" autocomplete="off" name="8493e8453bc320b25438039b158d80ba"><span>Because you still need a working installation to run any code, and you’re the one who has to recognize and fix problems when the setup breaks.</span></label><label><input type="radio" autocomplete="off" name="8493e8453bc320b25438039b158d80ba"><span>Because open-source software requires you to personally rewrite its source code before use.</span></label><label><input type="radio" autocomplete="off" name="8493e8453bc320b25438039b158d80ba"><span>Because AI assistants cannot generate R code unless RStudio is installed first.</span></label><label><input type="radio" autocomplete="off" name="8493e8453bc320b25438039b158d80ba"><span>It doesn’t matter anymore; once AI can write code, installation and setup knowledge is obsolete.</span></label>
+<div id="webex-b09fc1a887e10283fd13c6f2bd886544" class="webex-radiogroup" data-answer="OQEVVk8BTQhl">
+<label><input type="radio" autocomplete="off" name="b09fc1a887e10283fd13c6f2bd886544"><span>Because you still need a working installation to run any code, and you’re the one who has to recognize and fix problems when the setup breaks.</span></label><label><input type="radio" autocomplete="off" name="b09fc1a887e10283fd13c6f2bd886544"><span>Because open-source software requires you to personally rewrite its source code before use.</span></label><label><input type="radio" autocomplete="off" name="b09fc1a887e10283fd13c6f2bd886544"><span>It doesn’t matter anymore; once AI can write code, installation and setup knowledge is obsolete.</span></label><label><input type="radio" autocomplete="off" name="b09fc1a887e10283fd13c6f2bd886544"><span>Because AI assistants cannot generate R code unless RStudio is installed first.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -422,8 +434,8 @@ Note
 <ul>
 <li>Correct</li>
 <li>Wrong: open source means the code is available to inspect and modify if you want to, not that you are required to rewrite it.</li>
-<li>Wrong: AI assistants can write R code regardless of whether RStudio is installed; RStudio is a convenience for you, not a requirement for code generation.</li>
 <li>Wrong: someone (or something) still needs a working R/RStudio setup to actually run code, and problems still need to be diagnosed by a person.</li>
+<li>Wrong: AI assistants can write R code regardless of whether RStudio is installed; RStudio is a convenience for you, not a requirement for code generation.</li>
 </ul>
 </div>
 </div>
