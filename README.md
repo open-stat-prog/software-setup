@@ -159,4 +159,6 @@ For resolving all file paths, assume the root directory of your module repositor
 - The RStudio project file enforces this policy for running R scripts. 
 
 Use the `here()` function from the [**here**](https://here.r-lib.org/index.html) package to simplify relative path
-resolution in R code.
+resolution in R code
+
+
