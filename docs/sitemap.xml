@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.openstatprog.com/software-setup/index.html</loc>
-    <lastmod>2026-08-05T13:12:49.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.openstatprog.com/software-setup/quizzes/whatis/questions/what_is_cran.html</loc>
     <lastmod>2026-08-05T13:12:26.000Z</lastmod>
   </url>
@@ -63,6 +59,10 @@
   <url>
     <loc>https://www.openstatprog.com/software-setup/in_progress.html</loc>
     <lastmod>2025-07-23T13:25:44.768Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.openstatprog.com/software-setup/index.html</loc>
+    <lastmod>2026-08-05T13:12:49.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/software-setup/conclusion.html</loc>
