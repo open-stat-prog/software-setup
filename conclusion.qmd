@@ -24,7 +24,7 @@ Before moving on, make sure you can genuinely do each of these, not just recogni
 
 ## Hand-in assignment
 
-Depending on your course, your instructor may ask you to submit evidence that you've completed this checklist. If so, prepare the following:
+This assignment can be used as part of a course. Through this assignment, you show that you have completed the checklist above. Prepare to hand in the following:
 
 1.  A screenshot of RStudio showing an R Script open in the Source pane with at least one line of code, and the result of running that line visible in the Console pane.
 2.  One sentence: if you had just loaded a dataset, which pane would you check to preview it, and why?

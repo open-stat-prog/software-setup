@@ -10,6 +10,14 @@ format:
 source(here::here("R", "buttons.R"))
 ```
 
+::: {.callout-tip}
+
+## ⏱ Estimated Time to Complete
+
+**About 50–70 minutes**, including practice exercises and knowledge quizzes.
+
+:::
+
 Welcome to the *Software setup* module. In this module, you will:
 
 1. [Learn what R is](/tutorials/whatis/index.qmd)
