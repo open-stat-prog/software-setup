@@ -10,11 +10,11 @@ You install R from the CRAN website (Comprehensive R Archive Network), which is 
 
 R can be installed on:
 
--   Windows
+- Windows
 
--   MacOS
+- MacOS
 
--   Linux
+- Linux
 
 To install R:
 
@@ -32,12 +32,10 @@ If you used R before and installed it for example some years ago, it is probably
 
 To avoid issues and make sure everything works smoothly, we recommend installing the latest version of R from the CRAN website, even if you already have an older version on your computer.
 
-::: practice
+:::: practice
+## Practice exercise
 
-## Quick Check
-
-:::: {.panel-tabset}
-
+::: panel-tabset
 ## {{< var tab_title.question >}}
 
 Suppose you already have R installed from two years ago, and it still runs your old scripts without any errors. Why does this tutorial still recommend downloading the latest version from CRAN?
@@ -45,7 +43,5 @@ Suppose you already have R installed from two years ago, and it still runs your 
 ## {{< var tab_title.solution >}}
 
 R is actively developed: each new release brings bug fixes, performance improvements, and new features. Many R packages are only tested against recent R versions, so an outdated installation can cause packages to fail to install or behave unexpectedly later on, even though your own old scripts still run fine today.
-
-::::
-
 :::
+::::

@@ -20,8 +20,6 @@ RStudio has many different themes that you can choose from to change the appeara
 
 Tools → Global Options → Appearance.
 
-**Why it matters:** these are purely personal-comfort settings, they don't change how R behaves. But a layout and theme that are easy on your eyes make you more likely to actually notice errors, typos, and output, rather than working around a setup that tires you out.
-
 ## Saving your work automatically
 
 By turning on "Auto-save", RStudio will automatically save your script files while you are working. This helps to avoid losing your work if you forget to click save or something else unexpectedly happens. 
@@ -30,18 +28,13 @@ By turning on "Auto-save", RStudio will automatically save your script files whi
 
 You can find this under Tools → Global Options → Code → Saving. Here select "Automatically save when editor loses focus". 
 
-**Why it matters:** unlike your R objects (which live only in memory during your session), your script is your actual work. Auto-save protects it against crashes, accidental closes, or simply forgetting to hit save, none of which should cost you code you already wrote.
-
 ## Start with a clean slate always
 
-When you quit R, you get asked if you want to save the workspace to an .Rdata file. If you do this and you launch RStudio again, it allows you to continue where you left. We recommend to **not save your workspace to an .Rdata file**. This helps a lot with reproducibility of your work on the long term and helps you to ensure that your scripts are complete and self-contained. 
+When you quit R, you get asked if you want to save the workspace to an .Rdata file. If you do this and you launch RStudio again, it allows you to continue where you left. We recommend to **not save your workspace to an .Rdata file**. This helps a lot with reproducibility of your work on the long term and helps you to ensure that your scripts are complete and self-contained.
 
 ![Change saving workspace settings](/assets/images/rstudio_5.png). 
 
 You can permanently turn off this setting by going to Tools → Global Options → Save workspace to .Rdata on exit, and change this into "Never".
-
-**Why it matters:** if your objects silently carry over between sessions, your script might only work because of something left over in memory, not because the script itself is complete. Starting fresh each time forces your script to be self-contained, which is exactly what makes it reproducible for you later, or for anyone else who runs it.
-
 
 ## Set your default working directory 
 
@@ -52,6 +45,4 @@ For example, you can create a folder called RProjects and tell RStudtio to alway
 ![Change the default working directory](/assets/images/rstudio_9.png). 
 
 To can change the default working directory, you first create a folder on your computer specifically for your R documents, with a name and location you can easily find and remember. Next, you go to Tools → Global Options → General. By clicking on the "Browse" button here, you can select the folder you just created. Now, all R Scripts or other output that is created will be automatically stored here! 
-
-**Why it matters:** without a consistent working directory, it's easy to lose track of where a script saved its files, or to load the wrong version of a dataset from an old folder. A dedicated, predictable folder means you (and your code) always know where to look.
 

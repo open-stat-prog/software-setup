@@ -1625,6 +1625,19 @@ globalThis.qwebrExecuteCode = async function (
 
 </script>
 <style>
+div.callout-reading-advanced.callout {
+  border-left-color: red;
+}
+div.callout-reading-advanced.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
+}
+div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
+  background-image: none;
+}
 div.callout-reading.callout {
   border-left-color: purple;
 }
@@ -1662,19 +1675,6 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f0c1' !important;
-  background-image: none;
-}
-div.callout-reading-advanced.callout {
-  border-left-color: red;
-}
-div.callout-reading-advanced.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
   background-image: none;
 }
 </style>
@@ -2182,7 +2182,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <section id="r" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="r">R</h2>
-<p>R is a programming language an software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.</p>
+<p>R is a programming language and software environment designed for working with data. You can use it to do things like organize data, perform calculations, make graphs and run statistical analyses. It lets you write code (small instructions) to work with data. Instead of clicking through menus (like you do in Excel or SPSS), in R you write commands to tell the computer exactly what you want to do.</p>
 <p>R was created in the 1990s by two statisticians, Ross Ihaka and Robert Gentleman, at the University of Auckland in New Zealand. They named it “R” after the first letters of their names and also as a nod to the programming language S, which R was based on. Over time, R has evolved with contributions from thousands of users around the world, and today it is the go-to software program for statisticians and computational social scientists worldwide. Therefore, it is essential to have in your toolkit as an applied data scientist or researcher in the field of methodology and statistics.</p>
 <p>You can use R to:</p>
 <ul>
@@ -2207,7 +2207,7 @@ Try it yourself
 </div>
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>Try editing the line above, for example, replace it with <code>mean(c(2, 4, 6, 8))</code> and run it again. This is exactly the kind of instruction you’ll be giving R once it’s installed on your own computer; here, you get to try it before installing anything.</p>
+<p>Try editing the line above, for example, replace it with <code>mean(c(2, 4, 6, 8))</code> and run it again. This is also how you will provide R with instructions once it’s installed on your own computer.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="callout callout-style-default callout-resource callout-titled">

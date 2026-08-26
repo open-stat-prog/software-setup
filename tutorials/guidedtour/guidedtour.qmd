@@ -24,4 +24,4 @@ You can open a new R Script by clicking the green "+" sign on the top right of y
 
 -   You or anyone else can reproduce your analysis, which is especially important for good scientific practice. 
 
-Besides R Scripts, there are other types of files that have even more advanced options, but we will come back to that at a later module! 
+Besides R Scripts, there are more advanced types of files. They will be introduced in later modules.

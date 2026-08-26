@@ -72,6 +72,32 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
+div.callout-reading-advanced.callout {
+  border-left-color: red;
+}
+div.callout-reading-advanced.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
+}
+div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
+  background-image: none;
+}
+div.callout-resource.callout {
+  border-left-color: orange;
+}
+div.callout-resource.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
+}
+div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f0c1' !important;
+  background-image: none;
+}
 div.callout-practice.callout {
   border-left-color: green;
 }
@@ -93,32 +119,6 @@ div.callout-reading.callout-style-default > .callout-header {
 }
 div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
-  background-image: none;
-}
-div.callout-resource.callout {
-  border-left-color: orange;
-}
-div.callout-resource.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f0c1' !important;
-  background-image: none;
-}
-div.callout-reading-advanced.callout {
-  border-left-color: red;
-}
-div.callout-reading-advanced.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
@@ -357,15 +357,15 @@ Note
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is CRAN?</p>
-<div id="webex-07e442530369fb3eafba5f79d5e11ea2" class="webex-radiogroup" data-answer="awdJBBgDGQNt">
-<label><input type="radio" autocomplete="off" name="07e442530369fb3eafba5f79d5e11ea2"><span>A programming language similar to R</span></label><label><input type="radio" autocomplete="off" name="07e442530369fb3eafba5f79d5e11ea2"><span>A project management tool built into RStudio</span></label><label><input type="radio" autocomplete="off" name="07e442530369fb3eafba5f79d5e11ea2"><span>The official archive network where you download R</span></label><label><input type="radio" autocomplete="off" name="07e442530369fb3eafba5f79d5e11ea2"><span>A paid subscription service bundled with RStudio</span></label>
+<div id="webex-f52a224b645166831a73ac3daa700e3a" class="webex-radiogroup" data-answer="PQUeUB4CGFJr">
+<label><input type="radio" autocomplete="off" name="f52a224b645166831a73ac3daa700e3a"><span>A programming language similar to R</span></label><label><input type="radio" autocomplete="off" name="f52a224b645166831a73ac3daa700e3a"><span>The official archive network where you download R</span></label><label><input type="radio" autocomplete="off" name="f52a224b645166831a73ac3daa700e3a"><span>A project management tool built into RStudio</span></label><label><input type="radio" autocomplete="off" name="f52a224b645166831a73ac3daa700e3a"><span>A paid subscription service bundled with RStudio</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
 <li>Wrong: CRAN is not a language, it’s a distribution website for R.</li>
-<li>Wrong: CRAN is unrelated to RStudio’s project features.</li>
 <li>Correct: CRAN (Comprehensive R Archive Network) is the official source for downloading R.</li>
+<li>Wrong: CRAN is unrelated to RStudio’s project features.</li>
 <li>Wrong: R and CRAN are both free.</li>
 </ul>
 </div>
@@ -373,15 +373,15 @@ Note
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>You already have R installed from a couple of years ago, and it still runs your old scripts without errors. Why does it still make sense to update to the latest version?</p>
-<div id="webex-e57f54294aa2af1dee768b53ca3cde8c" class="webex-radiogroup" data-answer="PgUbVhkEHghp">
-<label><input type="radio" autocomplete="off" name="e57f54294aa2af1dee768b53ca3cde8c"><span>Updating R is a required step before RStudio will open</span></label><label><input type="radio" autocomplete="off" name="e57f54294aa2af1dee768b53ca3cde8c"><span>Old R versions eventually stop being able to open script files at all</span></label><label><input type="radio" autocomplete="off" name="e57f54294aa2af1dee768b53ca3cde8c"><span>There’s no real benefit, it’s just a suggestion</span></label><label><input type="radio" autocomplete="off" name="e57f54294aa2af1dee768b53ca3cde8c"><span>Newer R versions fix bugs and are often required for current R packages to install and work correctly</span></label>
+<div id="webex-e8e54ee113df98e6776705a1c5893331" class="webex-radiogroup" data-answer="PghJBRhVSQBs">
+<label><input type="radio" autocomplete="off" name="e8e54ee113df98e6776705a1c5893331"><span>Updating R is a required step before RStudio will open</span></label><label><input type="radio" autocomplete="off" name="e8e54ee113df98e6776705a1c5893331"><span>There’s no real benefit, it’s just a suggestion</span></label><label><input type="radio" autocomplete="off" name="e8e54ee113df98e6776705a1c5893331"><span>Old R versions eventually stop being able to open script files at all</span></label><label><input type="radio" autocomplete="off" name="e8e54ee113df98e6776705a1c5893331"><span>Newer R versions fix bugs and are often required for current R packages to install and work correctly</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
 <li>Wrong: RStudio doesn’t check your R version before opening.</li>
-<li>Wrong: R script files (.R) don’t expire or become unreadable.</li>
 <li>Wrong: package compatibility is a real, practical reason to stay current.</li>
+<li>Wrong: R script files (.R) don’t expire or become unreadable.</li>
 <li>Correct: even if your own old scripts still run, many packages you’ll need later are only tested against recent R versions.</li>
 </ul>
 </div>
@@ -389,30 +389,30 @@ Note
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>You’re trying to install R and RStudio on a laptop where you don’t have administrator rights, and the installers keep failing. What should you do?</p>
-<div id="webex-c4d91d7f8648202b04d4660215560b57" class="webex-radiogroup" data-answer="OARICR1VG1Zl">
-<label><input type="radio" autocomplete="off" name="c4d91d7f8648202b04d4660215560b57"><span>Keep retrying the local installer until it eventually works</span></label><label><input type="radio" autocomplete="off" name="c4d91d7f8648202b04d4660215560b57"><span>Install RStudio only, and skip installing R</span></label><label><input type="radio" autocomplete="off" name="c4d91d7f8648202b04d4660215560b57"><span>Use a cloud-based option such as posit.cloud (or MyWorkPlace, if eligible) instead of installing locally</span></label><label><input type="radio" autocomplete="off" name="c4d91d7f8648202b04d4660215560b57"><span>Ask someone to install a version of R that doesn’t require administrator rights</span></label>
+<div id="webex-d3ad0f55878d24a6e7455e8a950736f3" class="webex-radiogroup" data-answer="PwNNVBxWGQRl">
+<label><input type="radio" autocomplete="off" name="d3ad0f55878d24a6e7455e8a950736f3"><span>Keep retrying the local installer until it eventually works</span></label><label><input type="radio" autocomplete="off" name="d3ad0f55878d24a6e7455e8a950736f3"><span>Install RStudio only, and skip installing R</span></label><label><input type="radio" autocomplete="off" name="d3ad0f55878d24a6e7455e8a950736f3"><span>Ask someone to install a version of R that doesn’t require administrator rights</span></label><label><input type="radio" autocomplete="off" name="d3ad0f55878d24a6e7455e8a950736f3"><span>Use a cloud-based option such as posit.cloud (or MyWorkPlace, if eligible) instead of installing locally</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
 <li>Wrong: without admin rights, retrying the same installer won’t change the outcome.</li>
 <li>Wrong: RStudio alone can’t run R code, it needs R installed to function.</li>
-<li>Correct: cloud-based options run R and RStudio in the browser, so no local admin rights are needed.</li>
 <li>Wrong: there’s no admin-rights-free version of the local installer, this is exactly what the cloud options solve.</li>
+<li>Correct: cloud-based options run R and RStudio in the browser, so no local admin rights are needed.</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which statement about installing R and RStudio is correct?</p>
-<div id="webex-4f2783d1be83cc102a4b4003b86270a5" class="webex-radiogroup" data-answer="b1YeBxQDSAA/">
-<label><input type="radio" autocomplete="off" name="4f2783d1be83cc102a4b4003b86270a5"><span>Install RStudio before R, and buy the paid professional version</span></label><label><input type="radio" autocomplete="off" name="4f2783d1be83cc102a4b4003b86270a5"><span>R and RStudio come from the same download, you only need to install one</span></label><label><input type="radio" autocomplete="off" name="4f2783d1be83cc102a4b4003b86270a5"><span>Installing RStudio removes the need to separately install R</span></label><label><input type="radio" autocomplete="off" name="4f2783d1be83cc102a4b4003b86270a5"><span>Install R before RStudio, and use the free RStudio Desktop version</span></label>
+<div id="webex-9605ce3ceee7930bba74798afb5b13ce" class="webex-radiogroup" data-answer="YgYcBU9VH1I4">
+<label><input type="radio" autocomplete="off" name="9605ce3ceee7930bba74798afb5b13ce"><span>R and RStudio come from the same download, you only need to install one</span></label><label><input type="radio" autocomplete="off" name="9605ce3ceee7930bba74798afb5b13ce"><span>Install RStudio before R, and buy the paid professional version</span></label><label><input type="radio" autocomplete="off" name="9605ce3ceee7930bba74798afb5b13ce"><span>Installing RStudio removes the need to separately install R</span></label><label><input type="radio" autocomplete="off" name="9605ce3ceee7930bba74798afb5b13ce"><span>Install R before RStudio, and use the free RStudio Desktop version</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
-<li>Wrong: R must be installed before RStudio can run any code, and the paid version isn’t needed here.</li>
 <li>Wrong: R and RStudio are separate downloads from separate websites.</li>
+<li>Wrong: R must be installed before RStudio can run any code, and the paid version isn’t needed here.</li>
 <li>Wrong: RStudio is only the interface, R still has to be installed separately.</li>
 <li>Correct: RStudio needs R installed first to run code, and RStudio Desktop (free) is all you need for this module.</li>
 </ul>

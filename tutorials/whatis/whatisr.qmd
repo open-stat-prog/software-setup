@@ -4,7 +4,7 @@ title: "What is R"
 
 ## R
 
-R is a programming language an software environment designed for working
+R is a programming language and software environment designed for working
 with data. You can use it to do things like organize data, perform
 calculations, make graphs and run statistical analyses. It lets you
 write code (small instructions) to work with data. Instead of clicking
@@ -42,9 +42,7 @@ This is what "R computes" actually looks like. Click "Run Code" below.
 2 + 2
 ```
 
-Try editing the line above, for example, replace it with `mean(c(2, 4, 6, 8))` and run it again.
-This is exactly the kind of instruction you'll be giving R once it's installed on your own
-computer; here, you get to try it before installing anything.
+Try editing the line above, for example, replace it with `mean(c(2, 4, 6, 8))` and run it again. This is also how you will provide R with instructions once it's installed on your own computer. 
 
 ::: {.column-margin}
 

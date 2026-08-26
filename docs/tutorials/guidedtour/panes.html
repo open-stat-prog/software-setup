@@ -72,19 +72,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-practice.callout {
-  border-left-color: green;
-}
-div.callout-practice.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f085' !important;
-  background-image: none;
-}
 div.callout-reading-advanced.callout {
   border-left-color: red;
 }
@@ -109,6 +96,19 @@ div.callout-reading.callout-style-default .callout-icon::before, div.callout-rea
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
+  background-image: none;
+}
+div.callout-practice.callout {
+  border-left-color: green;
+}
+div.callout-practice.callout-style-default > .callout-header {
+  background-color: rgb(from green r g b / 13%);
+}
+div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f085' !important;
   background-image: none;
 }
 div.callout-resource.callout {
@@ -346,7 +346,7 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">1. Source</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">2. Console</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">3. Environment</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">4. Output</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>This is where you edit and save your R Scripts or other computational documents like Quarto and R Markdown. Anything you write here isn’t run automatically — you choose when to send it to the Console.</p>
+<p>This is where you edit and save your R Scripts or other computational documents. The code written here does not run automatically. You have to explicitly send it to the Console to be run.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>This is where your code actually runs. If you run a piece of code from the Source pane, the result or output of that code appears here.</p>
@@ -380,7 +380,7 @@ External Resources
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Quick Check
+Practice exercise
 </div>
 </div>
 <div class="callout-body-container callout-body">

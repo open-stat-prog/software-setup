@@ -12,7 +12,7 @@ Naturally, you will need internet access to use these services.
 
 ::: practice
 
-## Decide the Right Fallback
+## Practice exercise
 
 :::: {.panel-tabset}
 

@@ -10,7 +10,7 @@ Now that you have an R Script open, you'll see that the RStudio window is divide
 
 ## 1. Source
 
-This is where you edit and save your R Scripts or other computational documents like Quarto and R Markdown. Anything you write here isn't run automatically — you choose when to send it to the Console.
+This is where you edit and save your R Scripts or other computational documents. The code written here does not run automatically. You have to explicitly send it to the Console to be run.
 
 ## 2. Console
 
@@ -38,7 +38,7 @@ A useful source is [the Get Started page](https://docs.posit.co/ide/user/ide/get
 
 ::: practice
 
-## Quick Check
+## Practice exercise
 
 :::: {.panel-tabset}
 

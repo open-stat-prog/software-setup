@@ -8,7 +8,7 @@ Both R and RStudio are available to download and use completely free of charge. 
 
 Open source software is often built by communities of developers and researchers who work together to make the software better for everyone.
 
-While the standard versions of R and RStudio are free and open source, there are also paid versions available, especially for companies and enterprise environments. These offer extra features like advanced collaboration tools, security and technical support. For most learners, researchers and individual users, the free versions are more than enough. 
+While the standard versions of R and RStudio are free and open source, there are also paid versions available, especially for companies and enterprise environments. These offer extra features like advanced collaboration tools, security and technical support. In these tutorials we assume you work with the free version. 
 
 ## Open Science 
 
