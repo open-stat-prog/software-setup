@@ -5,8 +5,8 @@ title: "What is R"
 ## R
 
 R is a programming language and software environment designed for working
-with data. You can use it to do things like organize data, perform
-calculations, make graphs and run statistical analyses. It lets you
+with data. You can use it to do things like organizing data, performing
+calculations, making graphs and running statistical analyses. It lets you
 write code (small instructions) to work with data. Instead of clicking
 through menus (like you do in Excel or SPSS), in R you write commands to
 tell the computer exactly what you want to do.

@@ -19,7 +19,7 @@ Before moving on, make sure you can genuinely do each of these, not just recogni
 
 - [ ] Open RStudio and successfully run a line of code (e.g. `2 + 2`)
 - [ ] Create a new R Script, write a line of code in it, and save it
-- [ ] Point to each of the four panes and say what it's for
+- [ ] Point to each of the four panes and say what it is for
 - [ ] Change at least one RStudio setting (e.g. theme, auto-save, or working directory) and think about why this change is useful to you. 
 
 You are now all set to continue with the next module. Here we take the first steps into writing R code. 

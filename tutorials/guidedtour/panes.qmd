@@ -44,7 +44,7 @@ A useful source is [the Get Started page](https://docs.posit.co/ide/user/ide/get
 
 ## {{< var tab_title.question >}}
 
-You've just written and run `data <- read.csv("mydata.csv")` in your R Script. Which pane would you look in to preview the contents of `data`?
+You've just written and run `data <- read.csv("mydata.csv")` in your R Script. Which pane would you look at to preview the contents of `data`?
 
 ## {{< var tab_title.solution >}}
 

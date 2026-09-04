@@ -2,7 +2,7 @@
 title: "Install R"
 ---
 
-Since we. use RStudio on top of R, we need to start by installing R first. R is the underlying enging that runs your code, while RStudio is the interface that makes it easier to work with.
+Since we use RStudio on top of R, we need to start by installing R first. R is the underlying engine that runs your code, while RStudio is the interface that makes it easier to work with.
 
 ## Installing R from CRAN
 

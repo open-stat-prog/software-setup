@@ -42,7 +42,7 @@ After completing this module, you will be able to:
 
 ### Install R and RStudio
 
-1.  Learn how to install R.
+1.  Learn how to install R. <!-- Language: The formulation of these statements doesn't match well with the first sentence of the page "After completing this module you will be able to... -->
 2.  Learn how to install RStudio.
 3.  Learn what to do if installing R and RStudio fails. 
 
