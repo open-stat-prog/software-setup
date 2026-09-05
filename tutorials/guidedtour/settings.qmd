@@ -16,7 +16,7 @@ You can find this under Tools → Global Options → Pane Layout.
 
 ![Changing the RStudio theme](/assets/images/rstudio_7.png).
 
-RStudio has many different themes that you can choose from to change the appearance. You can for example choose to pick a theme with a more dark more, or with more or less bright text colors. Play around with it and choose whatever is easy on the eyes for you! 
+RStudio has many different themes that you can choose from to change the appearance. You can for example choose to pick a theme with a dark background, or with more or less bright text colors. Play around with it and choose whatever is easy on the eyes for you! 
 
 Tools → Global Options → Appearance.
 
