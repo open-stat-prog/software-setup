@@ -72,19 +72,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-practice.callout {
-  border-left-color: green;
-}
-div.callout-practice.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f085' !important;
-  background-image: none;
-}
 div.callout-reading.callout {
   border-left-color: purple;
 }
@@ -96,6 +83,19 @@ div.callout-reading.callout-style-default .callout-icon::before, div.callout-rea
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
+  background-image: none;
+}
+div.callout-practice.callout {
+  border-left-color: green;
+}
+div.callout-practice.callout-style-default > .callout-header {
+  background-color: rgb(from green r g b / 13%);
+}
+div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f085' !important;
   background-image: none;
 }
 div.callout-reading-advanced.callout {
@@ -335,7 +335,7 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
 </header>
 
 
-<p>To use R, you write code. These are lines of text that tell the computer what to do with your data. You can run code in the R console, but most people use it through RStudio. RStudio is a friendly interface that makes coding easier.</p>
+<p>To use R, you write code. These are lines of text that tell the computer what to do with your data. You can run code in the R console, but most people use it through RStudio. RStudio is a user-friendly interface that makes coding easier.</p>
 <p>RStudio is an Integrated Development Environment (IDE) that makes coding much easier. It helps you to:</p>
 <ul>
 <li><p>Write, organize and run your R code mode efficiently</p></li>
@@ -379,7 +379,7 @@ Practice exercise
 <p>You write some R code in RStudio and press “Run”. Which program is actually executing the code and computing the result: R, or RStudio?</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>R is. RStudio is the dashboard you’re typing in and looking at, but it sends your code to R. R then executes it and computes the result. If R weren’t installed, RStudio would have nothing to send your code to.</p>
+<p>R is. RStudio is the dashboard you’re typing in and looking at, but it sends your code to R. R then executes it and computes the result. If R wasn’t installed, RStudio would have nothing to send your code to.</p>
 </div>
 </div>
 </div>

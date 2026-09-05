@@ -42,14 +42,14 @@ After completing this module, you will be able to:
 
 ### Install R and RStudio
 
-1.  Learn how to install R. <!-- Language: The formulation of these statements doesn't match well with the first sentence of the page "After completing this module you will be able to... -->
-2.  Learn how to install RStudio.
-3.  Learn what to do if installing R and RStudio fails. 
+1.  Install R. <!-- Language: The formulation of these statements doesn't match well with the first sentence of the page "After completing this module you will be able to... -->
+2.  Install RStudio.
+3.  Know what to do if installing R and RStudio fails. 
 
 ### Get a guided tour
 
 1.  Understand the R-studio layout 
-2.  Learn how to change settings in RStudio.
+2.  Know how to change settings in RStudio.
 
 Click the button below to get started with the first tutorial.
 

@@ -72,14 +72,14 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-reading.callout {
-  border-left-color: purple;
+div.callout-reading-advanced.callout {
+  border-left-color: red;
 }
-div.callout-reading.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-reading-advanced.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
 }
-div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
+div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
@@ -111,14 +111,14 @@ div.callout-practice.callout-style-default .callout-icon::before, div.callout-pr
   content: '\f085' !important;
   background-image: none;
 }
-div.callout-reading-advanced.callout {
-  border-left-color: red;
+div.callout-reading.callout {
+  border-left-color: purple;
 }
-div.callout-reading-advanced.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
+div.callout-reading.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
+div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
@@ -335,20 +335,20 @@ div.callout-reading-advanced.callout-style-default .callout-icon::before, div.ca
 </header>
 
 
-<p>R is a programming language, that you will learn all about throughout the modules on this website. In addition, RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code. Both R and RStudio are free and open-source available. This tutorial gives you a better understand of how these programs work and what it means to be open-source.</p>
+<p>R is a programming language, that you will learn all about throughout the modules on this website. In addition, RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code. Both R and RStudio are free and open-source available. This tutorial gives you a better understanding of how these programs work and what it means to be open-source.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Why bother learning to code yourself, when AI can write it for you?
+Why bother learning to code yourself, if AI can write it for you?
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>AI tools can write R code quickly, but code you don’t understand is code you can’t trust. If an AI-generated script gives you a wrong or misleading result, a subtle error in how it filtered your data, or a statistical test used the wrong way, you’re the one who has to notice and catch that, not the AI. That only works if you understand what the code is actually doing.</p>
 <p>Learning R yourself also means you can read code before you run it, adapt it to your actual dataset instead of copy-pasting blindly, and explain your analysis to a supervisor, reviewer, or reader. These are things an AI doesn’t do for you. In research, being able to justify and reproduce your own analysis is essential.</p>
-<p>So think of AI as a tool that can speed up writing code, the same way a calculator speeds up arithmetic. It can be useful, but only once you understand what the numbers mean. The basics you learn in these modules are what let you use AI well, rather than just trust it blindly.</p>
+<p>So think of AI as a tool that can speed up writing code, the same way a calculator speeds up arithmetic. It can be useful, but only once you understand what the numbers mean. The basics you learn in these modules are what enable to you use AI well, rather than just trust it blindly.</p>
 </div>
 </div>
 
